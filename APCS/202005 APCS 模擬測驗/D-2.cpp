@@ -1,3 +1,5 @@
+/* https://hackmd.io/@joylintp/APCSM_202005 */
+
 // #pragma GCC target("avx2")
 #pragma GCC optimize("O3", "unroll-loops")
 
