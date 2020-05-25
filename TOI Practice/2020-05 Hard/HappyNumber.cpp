@@ -50,7 +50,7 @@ void init() {
 }
 
 int32_t main() {
-	// fastIO();
+	fastIO();
 	init();
 
 	int t;
