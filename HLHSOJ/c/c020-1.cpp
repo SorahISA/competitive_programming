@@ -1,4 +1,4 @@
-#pragma GCC target("avx2")
+// #pragma GCC target("avx2")
 #pragma GCC optimize("O3", "unroll-loops")
 
 #include <bits/stdc++.h>
