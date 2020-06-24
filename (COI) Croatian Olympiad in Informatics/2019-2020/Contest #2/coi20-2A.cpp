@@ -68,17 +68,15 @@ int32_t main() {
             pen += stoi(score.substr(9, 2));
         }
     }
-    penalty.pb({name, {prob, pen}});
     
-    sort(ALL(penalty), [](auto a, auto b) {
-        if (a.Y == b.Y) return a.X < b.X;
-        if (a.Y.X == b.Y.X) return a.Y.Y < b.Y.Y;
-        return a.Y.X > b.Y.X;
-    });
-    
-    for (int i = 0; i < n; ++i) {
-        if (penalty[i].X == name) return cout << i+1 << "\n", 0;
+    int ans = 1;
+    for (auto [Name, Score] : penalty) {
+        if (Score == pii{prob, pen}) ans += Name < "NijeZivotJedanACM";
+        else if (Score.X != prob) ans += Score.X > prob;
+        else ans += Score.Y < pen;
     }
+    
+    cout << ans << "\n";
     
     return 0;
 }
