@@ -54,7 +54,7 @@ int32_t main() {
         if (straw[i] == straw[i+1]) ++two_cnt;
     }
     
-    cout << (2 * deq_sz - 1) / 3 - min(two_cnt, (n + 1) / 3) << "\n";
+    cout << (2 * deq_sz - 1) / 3 - min(two_cnt, (deq_sz + 1) / 3) << "\n";
     
     return 0;
 }
