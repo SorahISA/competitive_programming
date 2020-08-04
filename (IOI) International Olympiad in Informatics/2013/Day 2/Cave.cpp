@@ -31,13 +31,14 @@ using Prior = priority_queue<T>;
                  uniform_int_distribution<int> __dis(1, 1E8); \
                  auto rnd = bind(__dis, __gen)
 
-const int maxn = 1E5 + 5;
+const int maxn = 5000 + 5;
 
 // void answer(int S[], int D[]);
 // int tryCombination(int S[]);
 
+int ans[maxn], pls[maxn], tmp[maxn];
+
 void exploreCave(int N) {
-    int ans[N], pls[N], tmp[N];
     memset(ans, 0xff, sizeof(ans));
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) tmp[j] = ans[j] >= 0 ? ans[j] : 1;
