@@ -65,6 +65,6 @@ c_i = \sum_{1 \le j, k \le N, \gcd(j, k) = i}{a_j \times b_k}
     = \sum_{j = 1}^{\lfloor\frac{N}{i}\rfloor}{a_{i \times j}} \times \sum_{j = 1}^{\lfloor\frac{N}{i}\rfloor}{b_{i \times j}}
       - \sum_{j = 2}^{\lfloor\frac{N}{i}\rfloor}{c_{i \times j}}
 
-\sum_{i = 1}^{N}{\frac{1}{i}} \approx O(N \lg N)
+\sum_{i = 1}^{N}{\frac{1}{i}} = O(N \lg N)
 
 */
