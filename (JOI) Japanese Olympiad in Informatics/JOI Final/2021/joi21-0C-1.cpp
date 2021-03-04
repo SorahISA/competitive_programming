@@ -69,7 +69,7 @@ void solve() {
                 if (rightV[j][mi] > i) hi = mi;
                 else lo = mi + 1;
             }
-            dp[i][j] += lo;
+            dp[i][j] -= lo;
             // cout << lo << " ";
             
             lo = 0, hi = rightV[j].size()-1;
@@ -78,7 +78,7 @@ void solve() {
                 if (rightV[j][mi] > j) hi = mi;
                 else lo = mi + 1;
             }
-            dp[i][j] -= lo;
+            dp[i][j] += lo;
             // cout << lo << "\n";
         }
     }
