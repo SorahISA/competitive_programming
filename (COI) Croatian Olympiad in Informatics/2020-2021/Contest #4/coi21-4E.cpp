@@ -30,8 +30,8 @@ vector<string> mp;
 vector<int> dis(maxn, INF), lst(maxn, -1);
 prior<pii> pq;
 
-auto trans = [&](int x, int y) {return x * m + y;};
-auto valid = [&](int x, int y) {return x >= 0 and x < n and y >= 0 and y < m;};
+auto trans = [](int x, int y) {return x * m + y;};
+auto valid = [](int x, int y) {return x >= 0 and x < n and y >= 0 and y < m;};
 
 void dijkstra(int now) {
     int i = now / m, j = now % m;
