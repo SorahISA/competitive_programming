@@ -1,5 +1,4 @@
-#include "routers.h"
-#pragma GCC optimize("Ofast", "unroll-loops")
+#include "gift.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -19,26 +18,46 @@ using prior = std::priority_queue<T, vector<T>, greater<T>>;
 
 mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-template<typename T>
-T chmax(T &lhs, T rhs) {return lhs = max(lhs, rhs);}
-
-vector<int> last_place;
-
-void cdq(int nL, int nR, int pL, int pR) {
-    // cout << "cdq: " << nL << " " << nR << " " << pL << " " << pR << "\n";
-    if (nL > nR or pL > pR) return;
-    if (pL == pR) return chmax(last_place[use_detector(pL)], pL), void();
-    int pM = pL + pR >> 1, nM = use_detector(pM);
-    chmax(last_place[nM], pM);
-    cdq(nL, nM-1, pL, pM-1), cdq(nM, nR, pM+1, pR);
+vector<pii> merge_overlap(vector<pii> &vec) {
+    sort(ALL(vec));
+    vector<pii> ret;
+    int L = vec.front().X, maxR = vec.front().Y;
+    for (auto [l, r] : vec) {
+        if (l <= maxR) maxR = max(maxR, r);
+        else ret.eb(L, maxR), tie(L, maxR) = tie(l, r);
+    }
+    ret.eb(L, maxR);
+    return ret;
 }
 
-vector<int> find_routers(int L, int N, int Q) {
-    last_place.assign(N, -1);
-    cdq(0, N-2, 0, L-1);
-    // for (auto x : last_place) cout << x << " ";
-    // cout << "\n";
-    vector<int> ans{0};
-    for (int i = 0; i < N-1; ++i) ans.eb(2*last_place[i] - ans.back());
-    return ans;
+int construct(int N, int R, vector<int> A, vector<int> B, vector<int> X) {
+    
+    vector<pii> identical;
+    for (int i = 0; i < N; ++i) identical.eb(i, i);
+    for (int i = 0; i < R; ++i) {
+        if (X[i] == 1) identical.eb(A[i], B[i]);
+    }
+    identical = merge_overlap(identical);
+    
+    string str(N, ' ');
+    for (int i = 0; i < identical.size(); ++i) {
+        // cerr << identical[i].X << " " << identical[i].Y << "\n";
+        for (int j = identical[i].X; j <= identical[i].Y; ++j) str[j] = "RB"[i & 1];
+    }
+    
+    vector<int> pre_cntB(N+1, 0);
+    for (int i = 0; i < N; ++i) {
+        pre_cntB[i+1] = pre_cntB[i] + (str[i] == 'B');
+    }
+    
+    for (int i = 0; i < R; ++i) {
+        if (X[i] == 2) {
+            if (pre_cntB[B[i]+1] - pre_cntB[A[i]] == B[i] - A[i] + 1 or
+                pre_cntB[B[i]+1] - pre_cntB[A[i]] == 0) {
+                return 0;
+            }
+        }
+    }
+    
+    return craft(str), 1;
 }
