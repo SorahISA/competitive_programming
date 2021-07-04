@@ -56,7 +56,7 @@ vector<int> paint(int N) {
     // cout << overall_label << "\n";
     vector<int> label(N, 1);
     for (int i = 0; i < N; ++i) label[i] = overall_label[i] ^ '0';
-    label.eb(overall_K);
+    label.eb(min(N, overall_K));
     return label;
 }
 
@@ -67,8 +67,8 @@ int find_location(int N, vector<int> C) {
         if (x == -1) return ans;
         C_str += to_string(x), --ans;
     }
-    for (int i = 0; i+overall_K <= N; ++i) {
-        if (C_str == overall_label.substr(i, overall_K)) return i;
+    for (int i = 0; i + min(N, overall_K) <= N; ++i) {
+        if (C_str == overall_label.substr(i, min(N, overall_K))) return i;
     }
     return -1;
 }
