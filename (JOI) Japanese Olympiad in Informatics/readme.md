@@ -19,7 +19,8 @@
 -   2022
     -   `joi22-0A.cpp` | インターカステラー (Intercastellar) | O(N + Q) 前綴和
     -   `joi22-0B.cpp` | 自習 (Self Study) | O(N lg(MC)) 對答案二分搜
-    -   `joi22-0C.cpp` | 選挙で勝とう (Let’s Win the Election) | O(N lg N + NK^2) DP
+    -   `joi22-0C-1.cpp` | 選挙で勝とう (Let’s Win the Election) | O(N lg N + NK^2) DP
+    -   `joi22-0C-2.cpp` | 選挙で勝とう (Let’s Win the Election) | O(N lg N + NK lg K) DP + 三分搜
     -   `joi22-0D.cpp` | 鉄道旅行 2 (Railway Trip 2) | O((N + M) lg N + Q lg^2 N) 倍增
 
 ## JOI Spring Camp
