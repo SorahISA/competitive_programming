@@ -1,0 +1,50 @@
+# Codeforces
+
+>   Currently, only files added after Jan 1, 2022 are within `readme.md`.
+
+-   0524 - [VK Cup 2015 - Round 1](https://codeforces.com/contest/524)
+    -   `0524D.cpp` | Social Network | O(N lg N) greedy
+-   0702 - [Educational Codeforces Round 15](https://codeforces.com/contest/702)
+    -   `0702B.cpp` | Powers of Two | O(N lg C) two-pointer
+-   0739 - [Codeforces Round #381 (Div. 1)](https://codeforces.com/contest/739)
+    -   `0739E-1.cpp` | Gosha is hunting | O(NΔ^2) randomize + dp
+-   1242 - [Codeforces Round #599 (Div. 1)](https://codeforces.com/contest/1242)
+    -   `1242B-1.cpp` | 0-1 MST | O(min(N, 2000)^2 + M lg M) randomize + dsu
+-   1621 - [Hello 2022](https://codeforces.com/contest/1621)
+    -   `1621A.cpp` | Stable Arrangement of Rooks
+    -   `1621B.cpp` | Integers Shop | O(N) cases
+    -   `1621C.cpp` | Hidden Permutations | O(N)
+    -   `1621D-1.cpp` | The Winter Hike | O(N^2) dp
+    -   `1621D-2.cpp` | The Winter Hike | O(N^2) cases
+    -   `1621E.cpp` | New School | O(N lg N + M lg M) binary-search
+-   1628 - [Codeforces Round #767 (Div. 1)](https://codeforces.com/contest/1628)
+    -   `1628A.cpp` | Meximum Array | O(N) greedy
+    -   `1628B.cpp` | Peculiar Movie Preferences | O(N lg N) set
+    -   `1628D1.cpp` | Game on Sum (Easy Version) | O(NM) dp + math
+-   1630 - [Codeforces Round #768 (Div. 1)](https://codeforces.com/contest/1630)
+    -   `1630A.cpp` | And Matching | O(N) constructive
+    -   `1630B.cpp` | Range and Partition | O(N lg N) greedy
+-   1634 - [Codeforces Round #770 (Div. 2)](https://codeforces.com/contest/1634)
+    -   `1634A.cpp` | Reverse and Concatenate
+    -   `1634B.cpp` | Fortune Telling
+    -   `1634C.cpp` | OKEA
+    -   `1634D.cpp` | Finding Zero | O(N) cases
+-   1637 - [Codeforces Global Round 19](https://codeforces.com/contest/1637)
+    -   `1637A.cpp` | Sorting Parts
+    -   `1637B.cpp` | MEX and Array
+    -   `1637C.cpp` | Andrew and Stones | O(N) cases
+    -   `1637D.cpp` | Yet Another Minimization Problem | O(N^2C) knapsack
+    -   `1637E.cpp` | Best Pair | **唬爛**
+-   1641 - [Codeforces Round #773 (Div. 1)](https://codeforces.com/contest/1641)
+    -   `1641A.cpp` | Great Sequence | O(N lg N) two-pointer
+    -   `1641B.cpp` | Repetitions Decoding | O(N^2) constructive
+-   1647 - [Codeforces Round #777 (Div. 2)](https://codeforces.com/contest/1647)
+    -   `1647A.cpp` | Madoka and Math Dad
+    -   `1647B.cpp` | Madoka and the Elegant Gift | O(NM) bfs
+    -   `1647C.cpp` | Madoka and Childish Pranks | O(NM) constructive 
+    -   `1647D.cpp` | Madoka and the Best School in Russia | O(N^{0.5}) math + cases
+    -   `1647E.cpp` | Madoka and the Sixth-graders | O(N lg C) doubling
+-   1648 - [Codeforces Round #775 (Div. 1)](https://codeforces.com/contest/1648)
+    -   `1648A.cpp` | Weird Sum | O(NM lg NM)
+    -   `1648B.cpp` | Integral Array | O(C lg C)
+    -   `1648C.cpp` | Tyler and Strings | O(N lg C) math
