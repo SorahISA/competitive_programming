@@ -12,10 +12,10 @@
     -   `1242B-1.cpp` | 0-1 MST | O(min(N, 2000)^2 + M lg M) randomize + dsu
 -   1621 - [Hello 2022](https://codeforces.com/contest/1621)
     -   `1621A.cpp` | Stable Arrangement of Rooks
-    -   `1621B.cpp` | Integers Shop | O(N) cases
+    -   `1621B.cpp` | Integers Shop | O(N) casework
     -   `1621C.cpp` | Hidden Permutations | O(N)
     -   `1621D-1.cpp` | The Winter Hike | O(N^2) dp
-    -   `1621D-2.cpp` | The Winter Hike | O(N^2) cases
+    -   `1621D-2.cpp` | The Winter Hike | O(N^2) casework
     -   `1621E.cpp` | New School | O(N lg N + M lg M) binary-search
 -   1628 - [Codeforces Round #767 (Div. 1)](https://codeforces.com/contest/1628)
     -   `1628A.cpp` | Meximum Array | O(N) greedy
@@ -28,11 +28,11 @@
     -   `1634A.cpp` | Reverse and Concatenate
     -   `1634B.cpp` | Fortune Telling
     -   `1634C.cpp` | OKEA
-    -   `1634D.cpp` | Finding Zero | O(N) cases
+    -   `1634D.cpp` | Finding Zero | O(N) casework
 -   1637 - [Codeforces Global Round 19](https://codeforces.com/contest/1637)
     -   `1637A.cpp` | Sorting Parts
     -   `1637B.cpp` | MEX and Array
-    -   `1637C.cpp` | Andrew and Stones | O(N) cases
+    -   `1637C.cpp` | Andrew and Stones | O(N) casework
     -   `1637D.cpp` | Yet Another Minimization Problem | O(N^2C) knapsack
     -   `1637E.cpp` | Best Pair | **唬爛**
 -   1641 - [Codeforces Round #773 (Div. 1)](https://codeforces.com/contest/1641)
@@ -42,7 +42,7 @@
     -   `1647A.cpp` | Madoka and Math Dad
     -   `1647B.cpp` | Madoka and the Elegant Gift | O(NM) bfs
     -   `1647C.cpp` | Madoka and Childish Pranks | O(NM) constructive 
-    -   `1647D.cpp` | Madoka and the Best School in Russia | O(N^{0.5}) math + cases
+    -   `1647D.cpp` | Madoka and the Best School in Russia | O(N^{0.5}) math + casework
     -   `1647E.cpp` | Madoka and the Sixth-graders | O(N lg C) doubling
 -   1648 - [Codeforces Round #775 (Div. 1)](https://codeforces.com/contest/1648)
     -   `1648A.cpp` | Weird Sum | O(NM lg NM)
