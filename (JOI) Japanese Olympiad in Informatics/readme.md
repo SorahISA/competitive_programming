@@ -23,6 +23,8 @@
     -   `joi22-0C-2.cpp` | 選挙で勝とう (Let’s Win the Election) | O(N lg N + NK lg K) DP + 三分搜
     -   `joi22-0D.cpp` | 鉄道旅行 2 (Railway Trip 2) | O((N + M) lg N + Q lg^2 N) 倍增
 
+## JOI Open Contest
+
 ## JOI Spring Camp
 
 -   2021
@@ -32,3 +34,6 @@
     -   Day 4
         -   `joi21-4B-Anna.cpp` | 道案内 2 (Navigation 2) | O(N^2) implementation [Two-Steps]
         -   `joi21-4B-Bruno.cpp` | 道案内 2 (Navigation 2) | O(N^2) implementation [Two-Steps]
+-   2022
+    -   Day 4
+        -   `joi22-4A.cpp` | 一流の団子職人 (Super Dango Maker) | O(NM lg M) 二分搜 [Interactive]
