@@ -35,5 +35,7 @@
         -   `joi21-4B-Anna.cpp` | 道案内 2 (Navigation 2) | O(N^2) implementation [Two-Steps]
         -   `joi21-4B-Bruno.cpp` | 道案内 2 (Navigation 2) | O(N^2) implementation [Two-Steps]
 -   2022
+    -   Day 2
+        -   `joi22-2C.cpp` | チーム戦 (Team Contest) | O(N lg N) greedy
     -   Day 4
         -   `joi22-4A.cpp` | 一流の団子職人 (Super Dango Maker) | O(NM lg M) 二分搜 [Interactive]
