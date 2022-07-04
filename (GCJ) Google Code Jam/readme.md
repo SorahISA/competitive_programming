@@ -40,4 +40,7 @@
     -   Round 1C
         -   `gcj22-1CA.cpp` | Letter Blocks | **唬爛**
         -   `gcj22-1CB.cpp` | Squary | O(1) math
-
+    -   Round 2
+        -   `gcj22-2A.cpp` | Spiraling Into Control | O(N + lg N) implementation + greedy
+    -   Round 3
+        -   `gcj22-3A.cpp` | Revenge of GoroSort | O(N) [interactive]
