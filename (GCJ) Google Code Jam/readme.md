@@ -37,5 +37,7 @@
     -   Round 1B
         -   `gcj22-1BA.cpp` | Pancake Deque | O(N) greedy
         -   `gcj22-1BB.cpp` | Controlled Inflation | O(NP + N) dp
-
+    -   Round 1C
+        -   `gcj22-1CA.cpp` | Letter Blocks | **唬爛**
+        -   `gcj22-1CB.cpp` | Squary | O(1) math
 
