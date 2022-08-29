@@ -12,4 +12,5 @@
 ## Folders now working on `readme.md`
 
 -   (IOI) International Olympiad in Informatics
+-   (MHC) Meta Hacker Cup
 -   Codeforces
