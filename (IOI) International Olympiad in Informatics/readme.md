@@ -1,0 +1,24 @@
+# (IOI) International Olympiad in Informatics
+
+-   2013
+    -   Day 2
+        -   `ioi13-2A.cpp`
+-   2019
+    -   Day 1
+        -   `ioi19-1A.cpp`
+-   2020
+    -   Day 0
+        -   `ioi20-0A.cpp`
+        -   `ioi20-0B.cpp`
+        -   `ioi20-0C.cpp`
+        -   `ioi20-0D.cpp`
+    -   Day 1
+        -   `ioi20-1B.cpp`
+    -   Day 2
+        -   `ioi20-2C.cpp`
+-   2021
+    -   Day 0
+        -   `ioi21-0B.cpp`
+        -   `ioi21-0C.cpp`
+        -   `ioi21-0D.cpp`
+-   2022
