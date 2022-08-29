@@ -26,9 +26,10 @@
 -   2022
     -   Qualification Round
         -   `mhc22-0A.cpp` | Second Hands | O(N+C) greedy
-        -   `mhc22-0B.cpp` | Second Friend | Second Second Friend | O(NM) DFS
+        -   `mhc22-0B.cpp` | Second Friend | Second Second Friend | O(NM) BFS
         -   `mhc22-0C.cpp` | Second Meaning | Second Second Meaning | O(10*N) implementation
-        -   `mhc22-0D-1.cpp` | Second Flight | O(QN^0.5) smart brute force
+        -   `mhc22-0D-1.cpp` | Second Flight | O(Q N^0.5 lg M) smart brute force
+        -   `mhc22-0D-2.cpp` | Second Flight | O(Q N^0.5) smart brute force + unordered map
         
     -   Round 1
         
