@@ -32,7 +32,12 @@
         -   `mhc22-0D-2.cpp` | Second Flight | O(Q N^0.5) smart brute force + unordered map
         
     -   Round 1
+        -   `mhc22-1A.cpp` | Consecutive Cuts - Chapter 1 | Consecutive Cuts - Chapter 2 | O(N) minimal string
+        
+        -   `mhc22-1B1.cpp` | Watering Well - Chapter 1 | O(N + Q + C^2) counting + brute force
+        
+        -   `mhc22-1B2.cpp` | Watering Well - Chapter 2 | O(N lg N + Q lg Q) two pointers + math
         
     -   Round 2
-
+    
     -   Round 3
