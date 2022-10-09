@@ -1,6 +1,6 @@
 # Codeforces
 
->   Currently, only files added after Jan 1, 2022 are within `readme.md`.
+>   Currently, only files added after Oct 9, 2022 are within `readme.md`.
 
 -   401059 - [2022 師大附中資訊學科能力競賽 Mirror](https://codeforces.com/contestInvitation/2cae2b9b61009387db71817e4cb8d75a09acb2c9)
     -   `401059A.cpp` | 特戰英豪 (Valorant) | O(N) implementation
