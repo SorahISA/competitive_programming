@@ -1,6 +1,8 @@
 # Codeforces
 
 >   Currently, only files added after Jan 1, 2022 are within `readme.md`.
+>   [Open GYM Contest](https://github.com/SorahISA/competitive_programming/blob/master/Codeforces/Gym/readme.md)
+>   [Unlisted GYM Contest](https://github.com/SorahISA/competitive_programming/blob/master/Codeforces/Unlisted/readme.md)
 
 -   0524 - [VK Cup 2015 - Round 1](https://codeforces.com/contest/524)
     -   `0524D.cpp` | Social Network | O(N lg N) greedy
@@ -40,7 +42,7 @@
     -   `1641B.cpp` | Repetitions Decoding | O(N^2) constructive
 -   1647 - [Codeforces Round #777 (Div. 2)](https://codeforces.com/contest/1647)
     -   `1647A.cpp` | Madoka and Math Dad
-    -   `1647B.cpp` | Madoka and the Elegant Gift | O(NM) bfs
+    -   `1647B.cpp` | Madoka and the Elegant Gift | O(NM) BFS
     -   `1647C.cpp` | Madoka and Childish Pranks | O(NM) constructive 
     -   `1647D.cpp` | Madoka and the Best School in Russia | O(N^{0.5}) math + casework
     -   `1647E.cpp` | Madoka and the Sixth-graders | O(N lg C) doubling
