@@ -1,7 +1,9 @@
 # Codeforces
 
 >   Currently, only files added after Jan 1, 2022 are within `readme.md`.
+>   
 >   [Open GYM Contest](https://github.com/SorahISA/competitive_programming/blob/master/Codeforces/Gym/readme.md)
+>   
 >   [Unlisted GYM Contest](https://github.com/SorahISA/competitive_programming/blob/master/Codeforces/Unlisted/readme.md)
 
 -   0524 - [VK Cup 2015 - Round 1](https://codeforces.com/contest/524)
