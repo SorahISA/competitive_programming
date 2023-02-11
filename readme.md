@@ -3,6 +3,7 @@
 ## Folders with `readme.md` added
 
 -   (APIO) Asia-Pacific Informatics Olympiad
+-   (BalticOI) Baltic Olympiad in Informatics
 -   (COI) Croatian Olympiad in Informatics
 -   (GCJ) Google Code Jam
 -   (JOI) Japanese Olympiad in Informatics
