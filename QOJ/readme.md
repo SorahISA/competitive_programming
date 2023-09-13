@@ -1,0 +1,136 @@
+# QOJ
+
+## ICPC
+
+- 750
+    - [Petrozavodsk Winter 2019. Day 3. Japanese Contest](https://qoj.ac/contest/750)
+    - [2018-2019 ICPC Asia Pacific - Yokohama Regional](https://qoj.ac/contest/750?v=1)
+    - `3312.cpp` | B. Arithmetic Progressions
+    - `3314.cpp` | D. Shortest Common Non-Subsequence
+    - `3320.cpp` | J. Colorful Tree
+    - `3321.cpp` | K. Sixth Sense
+- 917
+    - [The 2016 ICPC Taiwan Online Programming Contest](https://qoj.ac/contest/917)
+    - `3827.cpp` | A. Alan Turing
+    - `3828.cpp` | B. László Babai
+    - `3830.cpp` | D. Edsger Dijkstra
+    - `3834.cpp` | H. Richard Hamming
+- 1026
+    - [The 2022 ICPC Taiwan Online Programming Contest](https://qoj.ac/contest/1026)
+    - `5001.cpp` | C. Correct
+    - `5002.cpp` | D. Distance and Tree
+    - `5003.cpp` | E. Etched Emerald Orbs
+    - `5004.cpp` | F. Finalists
+    - `5005.cpp` | G. Geekflix
+- 1099
+    - [The 2022 ICPC Asia Hong Kong Regional Contest](https://qoj.ac/contest/1099)
+    - [The 1st Universal Cup. Stage 2: Hong Kong](https://qoj.ac/contest/1099?v=1)
+    - [Petrozavodsk Winter 2023. Day 3. 2023 ICPC Asia Hong Kong Regional](https://qoj.ac/contest/1099?v=2)
+    - `5455.cpp` | A. TreeScript
+    - `5457.cpp` | C. Painting Grid
+    - `5459.cpp` | E. Goose, goose, DUCK?
+    - `5462.cpp` | H. Another Goose Goose Duck Problem
+    - `5465.cpp` | K. Maximum GCD
+- 1106
+    - [The 1st Universal Cup. Stage 4: Ukraine](https://qoj.ac/contest/1106)
+    - Osijek Competitive Programming Camp 2023. Day 1: Anton Trygub Contest 1
+    - `5517.cpp` | A. Adjacent Product Sum
+    - `5520.cpp` | D. Distance Parities
+    - `5521.cpp` | E. Excellent XOR Problem
+    - `5522.cpp` | F. F*** 3-Colorable Graphs
+    - `5523.cpp` | G. Graph Problem With Small $n$
+    - `5526.cpp` | J. Jewel of Data Structure Problems
+- 1111
+    - [The 1st Universal Cup. Stage 5: Osijek](https://qoj.ac/contest/1111)
+    - Osijek Competitive Programming Camp 2023. Day 8: Dilhan Salgado Contest
+    - `5571.cpp` | F. Five Letter Warning
+    - `5572.cpp` | G. Gridlandia
+    - `5574.py`  | I. Julienne the Deck
+- 1124
+    - [The 2022 ICPC Asia Taoyuan Regional Programming Contest](https://qoj.ac/contest/1124)
+    - [The 1st Universal Cup. Stage 6: Taiwan](https://qoj.ac/contest/1124?v=1)
+    - `5665.cpp` | F. AA Country and King Dreamoon
+- 1129
+    - [The 1st Universal Cup. Stage 7: Zaporizhzhia](https://qoj.ac/contest/1129)
+    - Osijek Competitive Programming Camp 2023. Day 2: Oleksandr Kulkov Contest 3
+    - `5744.cpp` | G. Palindromic Differences
+    - `5745.cpp` | H. Graph Isomorphism
+    - `5747.cpp` | J. Persian Casino
+    - `5748.cpp` | K. Determinant, or...?
+    - `5750.cpp` | M. Siteswap
+- 1168
+    - [Petrozavodsk Winter 2023. Day 4: KAIST+KOI Contest, Grand Prix of Korea](https://qoj.ac/contest/1168)
+    - `6102.cpp` | B. Query on a Tree
+    - `6108.cpp` | H. Permutation Arrangement
+    - `6110.cpp` | J. Squirrel Game
+- 1178
+    - [Petrozavodsk Winter 2023. Day 1: JAGain in Petrozavodsk](https://qoj.ac/contest/1178)
+    - `6114.cpp` | A. Agriculture
+    - `6115.cpp` | B. Blocks and Expressions
+    - `6116.cpp` | C. Changing the Sequences
+    - `6121.cpp` | H. Hacks With Includes
+    - `6122.cpp` | I. Impossible-to-finish Race
+    - `6123.cpp` | J. JAG Graph Isomorphism
+    - `6124.cpp` | K. King Of Zombies
+- 1223
+    - [Petrozavodsk Winter 2023. Day 7: Gennady Korotkevich Contest 7](https://qoj.ac/contest/1223)
+    - [The 1st Universal Cup. Stage 16: Gomel](https://qoj.ac/contest/1223?v=1)
+    - `6407.cpp` | A. Classical A+B Problem
+    - `6416.cpp` | J. Classical Scheduling Problem
+- 1237
+    - [Petrozavodsk Winter 2023. Day 2: GP of ainta](https://qoj.ac/contest/1237)
+    - `6535.cpp` | A. Reversing
+    - `6536.cpp` | B. Lawyers
+    - `6541.cpp` | G. Make Everything White
+    - `6543.cpp` | I. Visiting Friend
+    - `6544.cpp` | J. Cooperation Game
+- 1248
+    - [2022-2023 ICPC North America Championship](https://qoj.ac/contest/1248)
+    - [The 1st Universal Cup. Stage 19: America](https://qoj.ac/contest/1248?v=1)
+    - `6560.cpp` | C. Broken Minimum Spanning Tree
+    - `6566.cpp` | I. Power of Divisors
+    - `6568.cpp` | K. Space Alignment
+    - `6569.cpp` | L. Splitting Pairs
+- 1280
+    - [The 2023 ICPC China Shandong Provincial Programming Contest](https://qoj.ac/contest/1280)
+    - `6695.cpp` | G. Matching
+- 1334
+    - [The 2nd Universal Cup. Stage 0: Trial Contest](https://qoj.ac/contest/1334)
+    - `7113.cpp` | A. A+B Problem
+    - `7114.cpp` | B. Best Interactive Player
+    - `7115.cpp` | C. Can You Guess My Sequence?
+    - `7116.cpp` | D. Do You Like This Problem?
+    - `see 1280` | G. Matching
+- 1339
+    - [The 2nd Universal Cup. Stage 1: Qingdao](https://qoj.ac/contest/1339)
+    - `7102.cpp` | A. Live Love
+    - `7103.cpp` | B. Red Black Tree
+    - `7104.cpp` | C. Halting Problem
+    - `7105.cpp` | D. Pixel Art
+    - `7107.cpp` | F. Chaleur
+    - `7108.cpp` | G. Couleur
+    - `7109.cpp` | H. Traveling on the Axis
+    - `7111.cpp` | J. Press the Button
+    - `7112.cpp` | K. XOR Clique
+- 1356
+    - [The 2nd Universal Cup. Stage 2: SPb](https://qoj.ac/contest/1356)
+    - [LVII St. Petersburg State University Championship](https://qoj.ac/contest/1356?v=1)
+    - [Petrozavodsk Summer 2023. Day 4. LVII SPb SU Championship](https://qoj.ac/contest/1356?v=2)
+    - `7175.cpp` | A. Mixed Messages
+    - `7176.cpp` | B. I Flipped The Calendar...
+    - `7178.cpp` | D. Bishops
+    - `7179.cpp` | E. Fischer's Chess Guessing Game
+    - `7181.cpp` | G. Graph Cuts
+    - `7182.cpp` | H. Very Sparse Table
+    - `7183.cpp` | I. Password
+    - `7184.cpp` | J. Transport Pluses
+    - `7186.cpp` | L. "Memo" Game With a Hint
+
+## OI
+
+- 1211
+    - [The 22nd Japanese Olympiad in Informatics Spring Training Camp (JOISC 2022/2023) Day 4](https://qoj.ac/contest/1211)
+    - `6343.cpp` | C. Bitaro's travel
+- 1300
+    - [JOI Open Contest 2023](https://qoj.ac/contest/1300)
+    - `6776.cpp` | C. Garden
