@@ -38,6 +38,7 @@
 -   `1631.cpp` | Reading Books | O(N)
 -   `1632.cpp` | Movie Festival II | O(N lg K) greedy
 -   `1644.cpp` | Maximum Subarray Sum II | O(N) 單調隊列
+-   `2168.cpp` | Nested Ranges Check | O(N lg N) sort
 -   `2216.cpp` | Collecting Numbers | O(N lg N) sort
 
 ## String Algorithms
