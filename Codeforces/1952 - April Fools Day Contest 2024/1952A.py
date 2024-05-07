@@ -1,0 +1,5 @@
+# print("notus")
+# print("no")
+# print("yes")
+# print("security")
+print("safety")

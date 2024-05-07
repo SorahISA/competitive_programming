@@ -27,6 +27,13 @@
     - `3828.cpp` | B. László Babai
     - `3830.cpp` | D. Edsger Dijkstra
     - `3834.cpp` | H. Richard Hamming
+- [989](./989)
+    - [2021-2022 ICPC Asia Pacific - Jakarta Regional](https://qoj.ac/contest/989)
+    - `4582.cpp` | D. Uniform Maker
+    - `4584.cpp` | F. Not One
+    - `4585-1.cpp` | G. Greedy Knapsack
+    - `4586.cpp` | H. Cell Game
+    - `4591.cpp` | M. Maxdifficent Group
 - [1026](./1026)
     - [The 2022 ICPC Taiwan Online Programming Contest](https://qoj.ac/contest/1026)
     - `5001.cpp` | C. Correct
@@ -104,7 +111,9 @@
     - [2022-2023 ICPC North America Championship](https://qoj.ac/contest/1248)
     - [The 1st Universal Cup. Stage 19: America](https://qoj.ac/contest/1248?v=1)
     - `6560.cpp` | C. Broken Minimum Spanning Tree
+    - `6562.cpp` | E. First Last
     - `6566.cpp` | I. Power of Divisors
+    - `6567.cpp` | J. Repetitive String Invention
     - `6568.cpp` | K. Space Alignment
     - `6569.cpp` | L. Splitting Pairs
 - [1280](./1280)
@@ -152,6 +161,13 @@
 - [318](./318)
     - [2020 陕西省队选拔赛 Day 1 (SNOI 2020 Day 1)](https://qoj.ac/contest/318)
     - `6225.cpp` | A. 生成树
+    - `6226.cpp` | B. 取石子
+- [319](./319)
+    - [2020 陕西省队选拔赛 Day 2 (SNOI 2020 Day 2)](https://qoj.ac/contest/319)
+- [338](./338)
+    - [JOI Open Contest 2021](https://qoj.ac/contest/338)
+    - `1132.cpp` | B. Financial Report
+    - `1132.cpp` | C. Monster Game
 - [1211](./1211)
     - [The 22nd Japanese Olympiad in Informatics Spring Training Camp (JOISC 2022/2023) Day 4](https://qoj.ac/contest/1211)
     - `6343.cpp` | C. Bitaro's travel

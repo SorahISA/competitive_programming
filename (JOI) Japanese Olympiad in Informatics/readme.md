@@ -1,41 +1,244 @@
 # (JOI) Japanese Olympiad in Informatics
 
+## JOI Preliminary
+
+- 2020
+    - `joi20-preA.cpp` | ポスター (Poster) | $O(N^2)$
+    - `joi20-preB.cpp` | いちご (Strawberry) | $O(N)$ greedy
+    - `joi20-preC.cpp` | 桁和 (Digit Sum) | $O(N)$ DP
+    - `joi20-preD.cpp` | テンキー (Tenkey) | $O(M \cdot 10)$ 同餘最短路
+    - `joi20-preE-1.cpp` | じゃんけん式 (Rock-Scissors-Paper Expression) | $O(N)$ implementation + divide and conquer
+- 2021
+    - `joi21-preA.cpp` | 往復すごろく (Round Sugoroku)
+    - `              ` | 
+    - `joi21-preC.cpp` | イベント巡り (Event Hopping)
+    - `joi21-preD.cpp` | 安全点検 (Safety Inspection)
+    - `joi21-preE.cpp` | スパイ 2 (Spy 2)
+- 2022
+    - `joi22-preA.cpp` | 図書館 2 (Library 2)
+    - `joi22-preB.cpp` | カーペット (Carpet) | $O(HW)$ BFS
+    - `joi22-preC.cpp` | 国土分割 (Land Division) | $O(H^2 W^2)$ 枚舉
+    - `joi22-preD-1.cpp` | 飴 2 (Candies 2) | $O(N^2)$ 2D queue DP
+    - `joi22-preE-1.cpp` | 交易計画 (Trade Plan) | $O(Q \sqrt{N+M})$ 分塊
+- 2023
+    - `joi23-preA.cpp` | 年齢の差 (Age Difference)
+    - `joi23-preB.cpp` | ジョイ四人組 (JOI04) | $O(N \log N)$ sort + two-pointer
+    - `joi23-preC.cpp` | 塗りつぶし (Painting) | $O(HW \log (HW))$ DSU
+    - `joi23-preD.cpp` | 貨物列車 (Freight Train) | $O(N^3)$ DP
+    - `              ` |
+- 2024
+    - `joi24-preA.cpp` | カードゲーム 2 (Card Game 2)
+    - `joi24-preA.cpp` | 買い物 2 (Shopping 2) | $O(Q \log N)$ 離線 + BIT
+    - `joi24-preC-1.cpp` | 白色光 2 (White Light 2) | $O(N)$ greedy
+    - `joi24-preC-2.cpp` | 白色光 2 (White Light 2) | $O(N)$ DP
+    - `joi24-preD.cpp` | 庭園 2 (Garden 2) | $O(N^2)$ DP
+    - `joi24-preE.cpp` | 高速道路の通行料金 (Highway Tolls) | $O(NM)$ 最短路 + DP
+
 ## JOI Final
 
--   2013
-    -   `joi13-0A.cpp` | 電飾 (Illumination) | O(N)
--   2017
-    -   `joi17-0C.cpp` | The Kingdom of JOIOI | O(HW lg C) 對答案二分搜
--   2018
-    -   `joi18-0A.cpp` | Stove | O(N lg N) greedy
-    -   `joi18-0B.cpp` | Art Exhibition | O(N) 預處理
--   2020
-    -   `joi20-0A.cpp` | Just Long Neckties | O(N lg N) greedy
-    -   `joi20-0B.cpp` | JJOOII 2 | O(N lg N) greedy
--   2021
-    -   `joi21-0A.cpp` | とてもたのしい家庭菜園 (Growing Vegetables is Fun 4) | O(N) greedy
-    -   `joi21-0B.cpp` | 雪玉 (Snowball) | O(N lg Q) 二分搜
-    -   `joi21-0C-1.cpp` | 集合写真 (Group Photo) | O(N^2 lg N) DP + BIT + 二分搜
--   2022
-    -   `joi22-0A.cpp` | インターカステラー (Intercastellar) | O(N + Q) 前綴和
-    -   `joi22-0B.cpp` | 自習 (Self Study) | O(N lg(MC)) 對答案二分搜
-    -   `joi22-0C-1.cpp` | 選挙で勝とう (Let’s Win the Election) | O(N lg N + NK^2) DP
-    -   `joi22-0C-2.cpp` | 選挙で勝とう (Let’s Win the Election) | O(N lg N + NK lg K) DP + 三分搜
-    -   `joi22-0D.cpp` | 鉄道旅行 2 (Railway Trip 2) | O((N + M) lg N + Q lg^2 N) 倍增
+- 2006
+    - `joi06-0A.cpp` | アンケート
+    - `joi06-0B.cpp` | 文字列
+    - `joi06-0C.cpp` | 正方形
+    - `joi06-0D.cpp` | リング | branch-and-bound
+    - `joi06-0E.cpp` | シート
+- 2007
+    - `joi07-0A.cpp` | 最大の和 (The Largest Sum)
+    - `joi07-0B.cpp` | 最長の階段 (The Longest Sequence)
+    - `joi07-0C.cpp` | 最古の遺跡 (The Oldest Ruin)
+    - `joi07-0D.cpp` | 最悪の記者 (The Worst Journalist) | $O(n+m)$ 拓樸排序
+    - `joi07-0E.cpp` | 最軽量のモビール (The Lightest Mobile) | $O(n)$ DFS
+- 2008
+    - `joi08-0A.cpp` | 碁石ならべ
+    - `joi08-0B.cpp` | 共通部分文字列 | $O(|s| |t|)$ DP
+    - `joi08-0C.cpp` | ダーツ
+    - `joi08-0D.cpp` | ぴょんぴょん川渡り | $O(nmk^2)$ DP
+    - `joi08-0E.cpp` | ペンキの色 | $O(n^2)$ 離散化 + 前綴和 + BFS
+- 2009
+    - `joi09-0A-1.cpp` | IOIOI
+    - `joi09-0A-2.cpp` | IOIOI
+    - `joi09-0B.cpp` | ピザ | $O((n + m) \log n)$ 排序 + 二分搜
+    - `joi09-0C.cpp` | あみだくじ | $O(n + m \log m)$
+    - `joi09-0D.cpp` | 散歩 | $O(HW)$ 分治 + DP
+    - `joi09-0E.cpp` | 認証レベル | $O(HW \log (HW))$ priority queue + BFS + two-pointer
+- 2010
+    - `joi10-0A.cpp` | 旅人 | $O(n + m)$ 前綴和
+    - `joi10-0B.cpp` | お菓子の分割 | $O(N^2)$ 前綴 DP
+    - `joi10-0C.cpp` | つらら | $O(N \log N)$ Dijkstra
+    - `joi10-0D.cpp` | 博覧会 | $O(N \log C)$ Manhattan 轉 Chebyshev + 對答案二分搜
+    - `            ` | ダンジョン
+- 2011
+    - `joi11-0A.cpp` | 惑星探査 (Planetary Exploration) | $O(NM)$ 2D 前綴和
+    - `joi11-0B.cpp` | 古本屋 (Books) | $O(N \log N + GK^2)$ DP
+    - `joi11-0C.cpp` | JOI 国の買い物事情 (Shopping in JOI Kingdom) | $O(M \log M)$ Dijkstra + math
+    - `joi11-0D.cpp` | 歩くサンタクロース (Walking Santa) | $O(N \log N)$
+    - `joi11-0E.cpp` | 微生物実験 (Bug Party) | $O(N \log N)$ 對答案二分搜 + greedy
+- 2012
+    - `            ` | JJOOII (JJOOII)
+    - `            ` | たのしいカードゲーム (Card Game is Fun)
+    - `            ` | 夜店 (Night Market)
+    - `            ` | 釘 (Nails)
+    - `            ` | JOI 国のお祭り事情 (Festivals in JOI Kingdom)
+- 2013
+    - `joi13-0A.cpp` | 電飾 (Illumination) | $O(N)$
+    - `            ` | IOI 列車で行こう (Take the 'IOI' train)
+    - `            ` | 現代的な屋敷 (Modern Mansion)
+    - `            ` | JOIOI の塔 (Tower of JOIOI)
+    - `            ` | バブルソート (Bubble Sort)
+- 2014
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+- 2015
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+- 2016
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+- 2017
+    - `            ` |
+    - `            ` |
+    - `joi17-0C.cpp` | JOIOI 王国 (Kingdom of JOIOI) | $O(HW \log C)$ 對答案二分搜
+    - `            ` |
+    - `            ` |
+- 2018
+    - `joi18-0A.cpp` | ストーブ (Stove) | $O(N \log N)$ greedy
+    - `joi18-0B.cpp` | 美術展 (Art Exhibition) | $O(N)$ 預處理
+    - `            ` |
+    - `            ` |
+    - `            ` |
+- 2019
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+    - `            ` |
+- 2020
+    - `joi20-0A.cpp` | 長いだけのネクタイ (Just Long Neckties) | $O(N \log N)$ greedy
+    - `joi20-0B.cpp` | JJOOII 2 (JJOOII 2) | $O(N \log N)$ greedy
+    - `            ` |
+    - `            ` |
+    - `            ` |
+- 2021
+    - `joi21-0A.cpp` | とてもたのしい家庭菜園 (Growing Vegetables is Fun 4) | $O(N)$ greedy
+    - `joi21-0B.cpp` | 雪玉 (Snowball) | $O(N \log Q)$ 二分搜
+    - `joi21-0C-1.cpp` | 集合写真 (Group Photo) | $O(N^2 \log N)$ DP + BIT + 二分搜
+    - `            ` |
+    - `            ` |
+- 2022
+    - `joi22-0A.cpp` | インターカステラー (Intercastellar) | $O(N + Q)$ 前綴和
+    - `joi22-0B.cpp` | 自習 (Self Study) | $O(N \log(MC))$ 對答案二分搜
+    - `joi22-0C-1.cpp` | 選挙で勝とう (Let’s Win the Election) | $O(N \log N + NK^2)$ DP
+    - `joi22-0C-2.cpp` | 選挙で勝とう (Let’s Win the Election) | $O(N \log N + NK \log K)$ DP + 三分搜
+    - `joi22-0D.cpp` | 鉄道旅行 2 (Railway Trip 2) | $O((N + M) \log N + Q \log^2 N)$ 倍增
+    - `            ` |
+- 2023
+    - `joi23-0A.cpp` | 碁石ならべ 2 (Stone Arranging 2)
+    - `joi23-0B.cpp` | 宣伝 2 (Advertisement 2)
+    - `            ` |
+    - `joi23-0D.cpp` | キャットエクササイズ (Cat Exercise) | $O(N \log N)$ DP + LCA + DSU
+    - `            ` |
+- 2024
+    - `joi24-0A.cpp` | 室温 (Room Temperature)
+    - `joi24-0B.cpp` | 建設事業 2 (Construction Project 2)
+    - `joi24-0C.cpp` | マラソン大会 2 (Marathon Race 2)
+    - `            ` | 
+    - `            ` | 
 
 ## JOI Open Contest
 
+- 2021
+    - `joi21-openB.cpp` | 決算報告 (Financial Report) | $O(N \log N)$ DP + Segment Tree
+    - `joi21-openC.cpp` | モンスターゲーム (Monster Game) | $O(N \log N)$ merge sort [Interactive]
+- 2023
+    - `joi23-openC.cpp` | 庭園 (Garden) | $O(D^2 + N + M)$ linked-list
+
 ## JOI Spring Camp
 
--   2021
-    -   Day 3
-        -   `joi21-3A-Anna.cpp` | 古代の機械 (Ancient Machine) | O(N) encode with Fibonacci [Two-Steps]
-        -   `joi21-3A-Bruno.cpp` | 古代の機械 (Ancient Machine) | O(N) encode with Fibonacci [Two-Steps]
-    -   Day 4
-        -   `joi21-4B-Anna.cpp` | 道案内 2 (Navigation 2) | O(N^2) implementation [Two-Steps]
-        -   `joi21-4B-Bruno.cpp` | 道案内 2 (Navigation 2) | O(N^2) implementation [Two-Steps]
--   2022
-    -   Day 2
-        -   `joi22-2C.cpp` | チーム戦 (Team Contest) | O(N lg N) greedy
-    -   Day 4
-        -   `joi22-4A.cpp` | 一流の団子職人 (Super Dango Maker) | O(NM lg M) 二分搜 [Interactive]
+- 2018
+    - Day 4
+        - `joi18-4A-1.cpp` | 飴 (Candies) | $O(N \log N)$ DP + Minkowski Sum (Super Aliens)
+- 2021
+    - Day 3
+        - `joi21-3A-Anna.cpp` | 古代の機械 (Ancient Machine) | $O(N)$ encode with Fibonacci [Two-Steps]
+        - `joi21-3A-Bruno.cpp` | 古代の機械 (Ancient Machine) | $O(N)$ encode with Fibonacci [Two-Steps]
+    - Day 4
+        - `joi21-4B-Anna.cpp` | 道案内 2 (Navigation 2) | $O(N^2)$ implementation [Two-Steps]
+        - `joi21-4B-Bruno.cpp` | 道案内 2 (Navigation 2) | $O(N^2)$ implementation [Two-Steps]
+- 2022
+    - Day 2
+        - `joi22-2C.cpp` | チーム戦 (Team Contest) | $O(N \log N)$ greedy
+    - Day 4
+        - `joi22-4A.cpp` | 一流の団子職人 (Super Dango Maker) | $O(NM \log M)$ 二分搜 [Interactive]
+- 2023
+    - Day 3
+        - `joi23-3B.cpp` | クッキー (Cookies) | $O(S^2 \log S / w + S \log S)$ 背包 + bitset
+    - Day 4
+        - `joi23-4C.cpp` | ビ太郎の旅 (Bitaro's Travel) | $O((N+Q) \log C)$ 倍增
+- 2024
+    - Day 1
+        - `joi24-1A.cpp` | 魚 3 (Fish 3)
+    - Day 3
+        - `joi24-3C.cpp` | 塔 (Tower)
+    - Day 4
+        - `joi24-4B.cpp` | 島巡り (Island Hopping) [Interactive]
+
+## JOIG Final
+
+- 2021
+    - `joig21-0A.cpp` | 金平糖 (Konpeito)
+    - `joig21-0B.cpp` | 巻物 (Scroll)
+    - `joig21-0C.cpp` | イルミネーション 2 (Illumination 2)
+    - `joig21-0D.cpp` | 展覧会 2 (Exhibition 2) | $O(N \log C)$ 對答案二分搜
+    - `joig21-0E.cpp` | パレード (Parade) | $O(N^2 \log N)$ 最短路 + DP
+    - `joig21-0F-1.cpp` | デジタルアート (Digital Art) | $O(HA^2 \log A)$ 矩形覆蓋
+- 2022
+    - `joig22-0A.cpp` | ピアノコンクール (Piano Competition)
+    - `joig22-0B.cpp` | 掛け算 (Multiplication)
+    - `joig22-0C.cpp` | 投票 (Voting)
+    - `joig22-0D.cpp` | いちご 2 (Strawberry 2)
+    - `joig22-0E.cpp` | エゴイ展 (EGOI Exhibition)
+    - `joig22-0F.cpp` | タクシー 2 (Taxis 2) | $O((N+M) \log L)$ 分層 BFS
+- 2023
+    - `joig23-0A.cpp` | 末尾の文字 (Last Letter)
+    - `joig23-0B.cpp` | 絶対階差数列 (Sequence of Absolute Differences)
+    - `joig23-0C.cpp` | 鐘 (Bell)
+    - `joig23-0D.cpp` | コイン集め 2 (Coin Collecting 2)
+    - `joig23-0E.cpp` | 運河 (Canal)
+    - `joig23-0F.cpp` | タイピング大会 (Typing Contest) | $O(N + |\Sigma|^3 2^{|\Sigma|} + Q |\Sigma|)$ 位元 DP
+
+## JOIG Spring Camp
+
+- 2022
+    - Day 1
+        - `joig22-1A.cpp` | リレー競技 (Relay) | $O(N \log N)$ sorting + set
+        - `joig22-1B.cpp` | JOIG ツアー (JOIG Tour) | $O(Q \cdot (16 \log N))$ 枚舉 + 二分搜
+        - `joig22-1C.cpp` | チーム戦 (Team Contest) | $O(N \log N)$ greedy
+    - Day 2
+        - `joig22-2A.cpp` | メロンの出荷 (Melons) | $O(N)$ DP + two-pointer
+        - `joig22-2B.cpp` | 空港 (Airport) | $O(N \log N)$ greedy + set
+        - `joig22-2C.cpp` | 一流の団子職人 (Super Dango Maker) | $O(NM \log M)$ 二分搜 [Interactive]
+- 2023
+    - Day 1
+        - `joig23-1A.cpp` | ロケット打ち上げ (Rocket Launching)
+        - `joig23-1B.cpp` | テレポーター (Teleporter)
+    - Day 2
+        - `joig23-2A.cpp` | スマートフォン (Smartphone)
+        - `joig23-2B.cpp` | 白色光 (White Light)
+        - `joig23-2C.cpp` | ビ太郎の旅 (Bitaro's Travel) | $O((N+Q) \log C)$ 倍增
+- 2024
+    - Day 1
+        - `joig24-1A.cpp` | いっしょ (Together)
+        - `joig24-1B.cpp` | バームクーヘン 2 (Baumkuchen 2)
+    - Day 2
+        - `joig24-2A.cpp` | カードゲーム 3 (Card Game 3)
+        - `joig24-2B.cpp` | チョコレートを増やせ (Increase Chocolates)
+        - `joig24-2C.cpp` | 島巡り (Island Hopping) [Interactive]

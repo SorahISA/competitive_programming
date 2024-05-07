@@ -1,9 +1,35 @@
 # (OIS) Olimpiadi di Informatica a Squadre
 
--   2021-2022
-    -   Final
-        -   `ois22-C.cpp` | Pordenone's Cyberspace | O(N lg N) greedy
-        -   `ois22-F.cpp` | Reading Papers | O(N lg N + L) heap
-        -   `ois22-G.cpp` | Drawing Slashes | O(NMα) dsu + implementation
-        -   `ois22-H.cpp` | Chess Tournament | O(N) prefix + suffix
-
+- 2021-2022
+    - Final
+        - `ois22-C.cpp` | Pordenone's Cyberspace (hacking) | $O(N \log N)$ greedy
+        - `ois22-E.cpp` | Practical Jokes (prankster) | $O(N)$ greedy
+        - `ois22-F.cpp` | Reading Papers (reading) | $O(N \log N + L)$ heap
+        - `ois22-G.cpp` | Drawing Slashes (slashes) | $O(NM \alpha)$ dsu + implementation
+        - `ois22-H.cpp` | Chess Tournament (tournament) | $O(N)$ prefix + suffix
+- 2022-2023
+    - Contest #1
+        - `ois23-1A.cpp` | Halloween Candies (candies)
+        - `ois23-1B.cpp` | Palindromic Dreams (dream)
+        - `ois23-1C.cpp` | Lost in Dristor 2 (dristor2)
+        - `ois23-1D.cpp` | Monopoly Board Game (monopoly)
+        - `ois23-1H.cpp` | Chess Tournament II (tournament2)
+        - `ois23-1I.cpp` | Vending Machines (vendingmachines)
+    - Contest #2
+        - `ois23-2A-1.cpp` | Spinning Roulettes (casino) | hash
+        - `ois23-2B.cpp` | Construct Arrays (constarr)
+        - `ois23-2C.cpp` | Formula 1 (f1)
+        - `ois23-2D.cpp` | DinoLand Fossils (fossils)
+        - `ois23-2E.cpp` | Juggling Shows (intervals)
+        - `ois23-2F.cpp` | Christmas Lights (lights)
+        - `ois23-2G.cpp` | Multiplication Practice (multiplication)
+        - `ois23-2H.cpp` | High-Speed Railroad (railroad)
+        - `ois23-2I.cpp` | Scoazze (scoazze)
+- 2023-2024
+    - Contest #2
+        - `ois24-2A.cpp` | Precise Average 2 (avg2)
+        - `ois24-2B.cpp` | Farmula 1 (farmula1)
+        - `ois24-2E.cpp` | Good Intervals (intervals2)
+        - `ois24-2F.cpp` | Pac-Man (pacman)
+        - `ois24-2G.cpp` | String Imbalance (stringimbalance)
+        - `ois24-2H.cpp` | Swapping Digits (swappingdigits)

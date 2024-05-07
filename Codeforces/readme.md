@@ -11,7 +11,7 @@
 -   0004 - [Codeforces Beta Round #4 (Div. 2)](https://codeforces.com/contest/4)
     -   `0004A.cpp` | Watermelon
 -   0020 - [Codeforces Alpha Round #20](https://codeforces.com/contest/20)
-    -   `0020C.cpp` | Dijkstra? | $O(m \lg m)$ Dijkstra
+    -   `0020C.cpp` | Dijkstra? | $O(m \log m)$ Dijkstra
 -   0025 - [Codeforces Beta Round #25 (Div. 2)](https://codeforces.com/contest/25)
     -   `0025A.cpp` | IQ test
 -   0031 - [Codeforces Beta Round #31 (Div. 2)](https://codeforces.com/contest/31)
@@ -85,11 +85,13 @@
 -   0344 - [Codeforces Round #200 (Div. 2)](https://codeforces.com/contest/344)
     -   `0344A.cpp` | Magnets
 -   0371 - [Codeforces Round #218 (Div. 2)](https://codeforces.com/contest/371)
-    -   `0371C.cpp` | Hamburgers | $O(\lg r)$ binary search
+    -   `0371C.cpp` | Hamburgers | $O(\log r)$ binary search
 -   0372 - [Codeforces Round #219 (Div. 1)](https://codeforces.com/contest/372)
     -   `0372C.cpp` | Watching Fireworks is Fun | $O(nm)$ 單調隊列優化 DP
 -   0377 - [Codeforces Round #222 (Div. 1)](https://codeforces.com/contest/377)
     -   `0377A.cpp` | Maze | $O(nm)$ BFS
+-   0381 - [Codeforces Round #225 (Div. 1)](https://codeforces.com/contest/381)
+    -   `0381E.cpp` | Vowels | $O(|\Sigma| 2^{|\Sigma|})$ SoS DP
 -   0427 - [Codeforces Round #244 (Div. 2)](https://codeforces.com/contest/427)
     -   `0427A.cpp` | Police Recruits
 -   0431 - [Codeforces Round #247 (Div. 2)](https://codeforces.com/contest/431)
@@ -104,7 +106,7 @@
     -   `0454A.cpp` | Little Pony and Crystal Mine
 -   0466 - [Codeforces Round #266 (Div. 2)](https://codeforces.com/contest/466)
     -   `0466A.cpp` | Cheap Travel
-    -   `0466C.cpp` | Number of Ways | $O(n \lg n)$ binary search
+    -   `0466C.cpp` | Number of Ways | $O(n \log n)$ binary search
 -   0467 - [Codeforces Round #267 (Div. 2)](https://codeforces.com/contest/467)
     -   `0467A.cpp` | George and Accommodation
 -   0469 - [Codeforces Round #268 (Div. 2)](https://codeforces.com/contest/469)
@@ -121,7 +123,7 @@
     -   `0489A.cpp` | SwapSort
     -   `0489B.cpp` | BerSU Ball
     -   `0489C.cpp` | Given Length and Sum of Digits…
-    -   `0489E.cpp` | Hiking | $O(n^2 \lg C)$ WQS 二分搜
+    -   `0489E.cpp` | Hiking | $O(n^2 \log C)$ WQS 二分搜
 -   0492 - [Codeforces Round #280 (Div. 2)](https://codeforces.com/contest/492)
     -   `0492B.cpp` | Vanya and Lanterns
 -   0509
@@ -132,15 +134,16 @@
 -   0520 - [Codeforces Round #295 (Div. 2)](https://codeforces.com/contest/520)
     -   `0520A.cpp` | Pangram
 -   0524 - [VK Cup 2015 - Round 1](https://codeforces.com/contest/524)
-    -   `0524D.cpp` | Social Network | $O(N \lg N)$ greedy
+    -   `0524D.cpp` | Social Network | $O(N \log N)$ greedy
 -   0526 - [ZeptoLab Code Rush 2015](https://codeforces.com/contest/526)
     -   `0526D.cpp` | Om Nom and Necklace | $O(n)$ Z Algorithm
+    -   `0526F.cpp` | Pudding Monsters | $O(n \log n)$ divide and conquer
 -   0536 - [Codeforces Round #299 (Div. 1)](https://codeforces.com/contest/536)
     -   `0536B.cpp` | Tavas and Malekas | $O(n)$ KMP
 -   0546 - [Codeforces Round #304 (Div. 2)](https://codeforces.com/contest/546)
     -   `0546A.cpp` | Soldier and Bananas
 -   0576 - [Codeforces Round #319 (Div. 1)](https://codeforces.com/contest/576)
-    -   `0576A.cpp` | Vasya and Petya's Game | $O(n \lg \lg n)$ math
+    -   `0576A.cpp` | Vasya and Petya's Game | $O(n \log \log n)$ math
     -   `0576C.cpp` | 
 -   0577 - [Codeforces Round #319 (Div. 2)](https://codeforces.com/contest/577)
     -   `0577A.cpp` | Multiplication Table
@@ -149,27 +152,27 @@
     -   `0581A.cpp` | Vasya the Hipster
 -   0593
 -   0598 - [Educational Codeforces Round 1](https://codeforces.com/contest/598)
-    -   `0598A.cpp` | Tricky Sum | $O(\lg N)$ math
+    -   `0598A.cpp` | Tricky Sum | $O(\log N)$ math
     -   `0598B.cpp` | Queries on a String | $O(m |S|)$ brute force
-    -   `0598C.cpp` | Nearest vectors | $O(N \lg N)$ polar sort + geometry
-    -   `0598D.cpp` | Igor In the Museum | $O(NM \lg(NM) + K)$ DSU
+    -   `0598C.cpp` | Nearest vectors | $O(N \log N)$ polar sort + geometry
+    -   `0598D.cpp` | Igor In the Museum | $O(NM \log(NM) + K)$ DSU
     -   `0598E.cpp` | Chocolate Bar | $O(N M K^2 (N+M))$ DP
 -   0600
 -   0609 - [Educational Codeforces Round 3](https://codeforces.com/contest/609)
-    -   `0609A.cpp` | USB Flash Drives | $O(N \lg N)$
+    -   `0609A.cpp` | USB Flash Drives | $O(N \log N)$
     -   `0609B.cpp` | The Best Gift | $O(N + M)$ math
-    -   `0609C.cpp` | Load Balancing | $O(N \lg N)$ greedy
-    -   `0609D.cpp` | Gadgets for dollars and pounds | $O((N + M \lg M) \lg N)$ binary search + greedy
-    -   `0609E.cpp` | Minimum spanning tree for each edge | $O((N + M) \lg M)$ LCA
-    -   `0609F-1.cpp` | Frogs and mosquitoes | $O((N + M) \lg C)$ 動態開點 segment tree
+    -   `0609C.cpp` | Load Balancing | $O(N \log N)$ greedy
+    -   `0609D.cpp` | Gadgets for dollars and pounds | $O((N + M \log M) \log N)$ binary search + greedy
+    -   `0609E.cpp` | Minimum spanning tree for each edge | $O((N + M) \log M)$ LCA
+    -   `0609F-1.cpp` | Frogs and mosquitoes | $O((N + M) \log C)$ 動態開點 segment tree
 -   0617 - [Codeforces Round #340 (Div. 2)](https://codeforces.com/contest/617)
     -   `0617A.cpp` | Elephant
 -   0620 - [Educational Codeforces Round 6](https://codeforces.com/contest/620)
     -   `0620A.cpp` | Professor GukiZ's Robot
     -   `0620B.cpp` | Grandfather Dovlet’s calculator
-    -   `0620C.cpp` | Pearls in a Row | $O(n \lg n)$ set
-    -   `0620D.cpp` | Professor GukiZ and Two Arrays | $O(nm \lg(nm))$ set
-    -   `0620E.cpp` | New Year Tree | $O((n + m) \lg n)$ segment tree
+    -   `0620C.cpp` | Pearls in a Row | $O(n \log n)$ set
+    -   `0620D.cpp` | Professor GukiZ and Two Arrays | $O(nm \log(nm))$ set
+    -   `0620E.cpp` | New Year Tree | $O((n + m) \log n)$ segment tree
     -   `0620F-1.cpp` | Xors on Segments | $O(n(n + m))$ brute force
 -   0633 - [Manthan, Codefest 16](https://codeforces.com/contest/633)
     -   `0633C.cpp` | Spy Syndrome 2 | $O(nW + \sum W)$ trie + dp
@@ -179,7 +182,7 @@
 -   0677 - [Codeforces Round #355 (Div. 2)](https://codeforces.com/contest/677)
     -   `0677A.cpp` | Vanya and Fence
 -   0702 - [Educational Codeforces Round 15](https://codeforces.com/contest/702)
-    -   `0702B.cpp` | Powers of Two | $O(N \lg C)$ two-pointer
+    -   `0702B.cpp` | Powers of Two | $O(N \log C)$ two-pointer
 -   0705 - [Codeforces Round #366 (Div. 2)](https://codeforces.com/contest/705)
     -   `0705A.cpp` | Hulk
 -   0706 - [Codeforces Round #367 (Div. 2)](https://codeforces.com/contest/706)
@@ -222,7 +225,7 @@
     -   `1006B.cpp` | Polycarp's Practice
     -   `1006C.cpp` | Three Parts of the Array | $O(n)$ two-pointers
     -   `1006D.cpp` | Two Strings Swaps | $O(n)$ casework
-    -   `1006E-1.cpp` | Military Problem | $O(n \lg n + q)$ DSU on tree
+    -   `1006E-1.cpp` | Military Problem | $O(n \log n + q)$ DSU on tree
     -   `1006E-2.cpp` | Military Problem | $O(n + q)$ DFS order
     -   `1006F.cpp` | Xor-Paths | $O(2^{\max(n, m)})$ 折半枚舉
 -   1030 - [Technocup 2019 - Elimination Round 1](https://codeforces.com/contest/1030)
@@ -234,20 +237,20 @@
 -   1070
 -   1081
 -   1083 - [Codeforces Round #526 (Div. 1)](https://codeforces.com/contest/1083)
-    -   `1083E-1.cpp` | The Fair Nut and Rectangles | $O(N \lg N)$ DP 斜率優化 + 李超
+    -   `1083E-1.cpp` | The Fair Nut and Rectangles | $O(N \log N)$ DP 斜率優化 + 李超
 -   1137
 -   1157
 -   1167 - [Educational Codeforces Round 65](https://codeforces.com/contest/1167)
     -   `1167E.cpp` | Range Deleting | $O(n)$ two-pointer
 -   1188 - [Codeforces Round #572 (Div. 1)](https://codeforces.com/contest/1188)
-    -   `1188B.cpp` | Count Pairs | $O(n \lg n)$ math + observation
+    -   `1188B.cpp` | Count Pairs | $O(n \log n)$ math + observation
 -   1200 - [Codeforces Round #578 (Div. 2)](https://codeforces.com/contest/1200)
     -   `1200A.cpp` | Hotelier
     -   `1200E.cpp` | Compress Words | $O(|s|)$ KMP
 -   1223 - [Technocup 2020 - Elimination Round 1](https://codeforces.com/contest/1223)
     -   `1223A.cpp` | CME
 -   1242 - [Codeforces Round #599 (Div. 1)](https://codeforces.com/contest/1242)
-    -   `1242B-1.cpp` | 0-1 MST | $O(\min(N, 2000)^2 + M \lg M)$ randomize + DSU
+    -   `1242B-1.cpp` | 0-1 MST | $O(\min(N, 2000)^2 + M \log M)$ randomize + DSU
 -   1244 - [Codeforces Round #592 (Div. 2)](https://codeforces.com/contest/1244)
     -   `1244A.cpp` | Pens and Pencils
 -   1245
@@ -269,7 +272,7 @@
 -   1344 - [Codeforces Round #639 (Div. 1)](https://codeforces.com/contest/1344)
     -   `1344A.cpp` | Hilbert's Hotel | $O(n)$ math
 -   1353 - [Codeforces Round #642 (Div. 3)](https://codeforces.com/contest/1353)
-    -   `1353D.cpp` | Constructing the Array | $O(n \lg n)$ priority queue
+    -   `1353D.cpp` | Constructing the Array | $O(n \log n)$ priority queue
 -   1358
 -   1360
 -   1361
@@ -291,7 +294,7 @@
 -   1450
 -   1451
 -   1454 - [Codeforces Round #686 (Div. 3)](https://codeforces.com/contest/1454)
-    -   `1454F-1.cpp` | Array Partition | $O(n \lg n)$ two-pointers
+    -   `1454F-1.cpp` | Array Partition | $O(n \log n)$ two-pointers
     -   `1454F-2.cpp` | Array Partition | $O(n)$ two-pointers
 -   1456
 -   1466
@@ -299,7 +302,7 @@
 -   1475 - [Codeforces Round #697 (Div. 3)](https://codeforces.com/contest/1475)
     -   `1475E.cpp` | Advertising Agency
 -   1494 - [Educational Codeforces Round 105](https://codeforces.com/contest/1494)
-    -   `1494E.cpp` | A-Z Graph | $O(m \lg n)$
+    -   `1494E.cpp` | A-Z Graph | $O(m \log n)$
 -   1497
 -   1505 - [April Fools Day Contest 2021](https://codeforces.com/contest/1505)
     -   `1505A.cpp` | Is it rated - 2
@@ -313,7 +316,7 @@
     -   `1505I.srs` | Mysterious language again, seriously?
 -   1515
 -   1526 - [Codeforces Round #723 (Div. 2)](https://codeforces.com/contest/1526)
-    -   `1526C.cpp` | Potions | $O(n \lg n)$ 可悔改 greedy
+    -   `1526C.cpp` | Potions | $O(n \log n)$ 可悔改 greedy
 -   1530
 -   1537 - [Codeforces Round #726 (Div. 2)](https://codeforces.com/contest/1537)
     -   `1537A.cpp` | Arithmetic Array
@@ -328,20 +331,35 @@
 -   1579
 -   1581
 -   1592
+-   1612 - [Educational Codeforces Round 117](https://codeforces.com/contest/1612)
+    -   `1612A.cpp` | Distance
+    -   `1612B.cpp` | Special Permutation
+    -   `1612C.cpp` | Chat Ban | $O(\log k)$ binary search
+    -   `1612D.cpp` | X-Magic Pair | $O(\log (a+b))$ GCD
+    -   `1612E.cpp` | Messages | $O(Mk)$ math + greedy
+    -   `1612F-1.cpp` | Armor and Weapons | $O((n+m) \log (n+m) \log q)$ math + brute force
+    -   `1612F-2.cpp` | Armor and Weapons | $O((n+m) \log (n+m) \log q)$ BFS
 -   1621 - [Hello 2022](https://codeforces.com/contest/1621)
     -   `1621A.cpp` | Stable Arrangement of Rooks
     -   `1621B.cpp` | Integers Shop | $O(N)$ casework
     -   `1621C.cpp` | Hidden Permutations | $O(N)$
     -   `1621D-1.cpp` | The Winter Hike | $O(N^2)$ DP
     -   `1621D-2.cpp` | The Winter Hike | $O(N^2)$ casework
-    -   `1621E.cpp` | New School | $O(N \lg N + M \lg M)$ binary search
+    -   `1621E.cpp` | New School | $O(N \log N + M \log M)$ binary search
 -   1628 - [Codeforces Round #767 (Div. 1)](https://codeforces.com/contest/1628)
     -   `1628A.cpp` | Meximum Array | $O(N)$ greedy
-    -   `1628B.cpp` | Peculiar Movie Preferences | $O(N \lg N)$ set
+    -   `1628B.cpp` | Peculiar Movie Preferences | $O(N \log N)$ set
     -   `1628D1.cpp` | Game on Sum (Easy Version) | $O(NM)$ DP + math
 -   1630 - [Codeforces Round #768 (Div. 1)](https://codeforces.com/contest/1630)
     -   `1630A.cpp` | And Matching | $O(N)$ constructive
-    -   `1630B.cpp` | Range and Partition | $O(N \lg N)$ greedy
+    -   `1630B.cpp` | Range and Partition | $O(N \log N)$ greedy
+-   1633 - [Educational Codeforces Round 122](https://codeforces.com/contest/1633)
+    -   `1633A.cpp` | Div. 7
+    -   `1633B.cpp` | Minority | $O(|s|)$ 觀察
+    -   `1633C.cpp` | Kill the Monster
+    -   `1633D.cpp` | Make Them Equal | $O(N^2 \cdot 12)$ 背包 DP
+    -   `1633E.cpp` | Spanning Tree Queries | $O(m^3 \log m + k \log m)$ MST
+    -   `1633F.cpp` | Perfect Matching | $O(n \log^2 n)$ HLD
 -   1634 - [Codeforces Round #770 (Div. 2)](https://codeforces.com/contest/1634)
     -   `1634A.cpp` | Reverse and Concatenate
     -   `1634B.cpp` | Fortune Telling
@@ -354,18 +372,25 @@
     -   `1637D.cpp` | Yet Another Minimization Problem | $O(N^2 * C)$ knapsack
     -   `1637E.cpp` | Best Pair | **唬爛**
 -   1641 - [Codeforces Round #773 (Div. 1)](https://codeforces.com/contest/1641)
-    -   `1641A.cpp` | Great Sequence | $O(N \lg N)$ two-pointer
+    -   `1641A.cpp` | Great Sequence | $O(N \log N)$ two-pointer
     -   `1641B.cpp` | Repetitions Decoding | $O(N^2)$ constructive
+-   1644 - [Educational Codeforces Round 123](https://codeforces.com/contest/1644)
+    -   `1644A.cpp` | Doors and Keys
+    -   `1644B.cpp` | Anti-Fibonacci Permutation
+    -   `1644C.cpp` | Increase Subarray Sums | $O(n^2)$
+    -   `1644D.cpp` | Cross Coloring | $O(q \log q)$
+    -   `1644E.cpp` | Expand the Path | $O(|s|)$
+    -   `1644F.cpp` | Basis | $O(n \log^2 n)$ Stirling Numbers + NTT + DP + 排容
 -   1647 - [Codeforces Round #777 (Div. 2)](https://codeforces.com/contest/1647)
     -   `1647A.cpp` | Madoka and Math Dad
     -   `1647B.cpp` | Madoka and the Elegant Gift | $O(NM)$ BFS
     -   `1647C.cpp` | Madoka and Childish Pranks | $O(NM)$ constructive 
     -   `1647D.cpp` | Madoka and the Best School in Russia | $O(N^{0.5})$ math + casework
-    -   `1647E.cpp` | Madoka and the Sixth-graders | $O(N \lg C)$ doubling
+    -   `1647E.cpp` | Madoka and the Sixth-graders | $O(N \log C)$ doubling
 -   1648 - [Codeforces Round #775 (Div. 1)](https://codeforces.com/contest/1648)
-    -   `1648A.cpp` | Weird Sum | $O(NM \lg(NM))$
-    -   `1648B.cpp` | Integral Array | $O(C \lg C)$
-    -   `1648C.cpp` | Tyler and Strings | $O(N \lg C)$ math
+    -   `1648A.cpp` | Weird Sum | $O(NM \log(NM))$
+    -   `1648B.cpp` | Integral Array | $O(C \log C)$
+    -   `1648C.cpp` | Tyler and Strings | $O(N \log C)$ math
 -   1663 - [April Fools Day Contest 2022](https://codeforces.com/contest/1663)
     -   `1663A.txt` | Who Tested?
     -   `1663B.cpp` | Mike's Sequence
@@ -375,7 +400,26 @@
     -   `1663F.cpp` | In Every Generation...
     -   `1663G.js` | Six Characters
     -   `1663H.txt` | Cross-Language Program
--   1677 - [Codeforces Round 789 (Div. 1)](https://codeforces.com/contest/1677)
+-   1669 - [Codeforces Round #784 (Div. 4)](https://codeforces.com/contest/1669)
+    -   `1669A.cpp` | Division?
+    -   `1669B.cpp` | Triple
+    -   `1669C.cpp` | Odd/Even Increments
+    -   `1669D.cpp` | Colorful Stamp
+    -   `1669E.cpp` | 2-Letter Strings
+    -   `1669F.cpp` | Eating Candies
+    -   `1669G.cpp` | Fall Down
+    -   `1669H.cpp` | Maximal AND
+-   1676 - [Codeforces Round #790 (Div. 4)](https://codeforces.com/contest/1676)
+    -   `1676A.cpp` | Lucky?
+    -   `1676B.cpp` | Equal Candies
+    -   `1676C.cpp` | Most Similar Words
+    -   `1676D.cpp` | X-Sum
+    -   `1676E.cpp` | Eating Queries
+    -   `1676F.cpp` | Longest Strike
+    -   `1676G.cpp` | White-Black Balanced Subtrees | $O(n)$ 樹 DP
+    -   `1676H1.cpp` | Maximum Crossings (Easy Version)
+    -   `1676H2.cpp` | Maximum Crossings (Hard Version) | $O(n \log n)$ 逆序數對
+-   1677 - [Codeforces Round #789 (Div. 1)](https://codeforces.com/contest/1677)
     -   `1677A.cpp` | Tokitsukaze and Strange Inequality | $O(n^2)$ prefix sum
     -   `1677B.cpp` | Tokitsukaze and Meeting | $O(nm)$ prefix sum
     -   `1677C.cpp` | Tokitsukaze and Two Colorful Tapes | $O(n)$ find cycle
@@ -384,11 +428,11 @@
     -   `1684A.cpp` | Digit Minimization
     -   `1684B.cpp` | Z mod X = C | $O(1)$ math
     -   `1684C.cpp` | Column Swapping
-    -   `1684D.cpp` | Traps | $O(n \lg n)$ greedy
+    -   `1684D.cpp` | Traps | $O(n \log n)$ greedy
 -   1693 - [Codeforces Round #800 (Div. 1)](https://codeforces.com/contest/1693)
     -   `1693A.cpp` | Directional Increase | $O(n)$ prefix sum
     -   `1693B.cpp` | Fake Plastic Trees | $O(n)$ greedy
-    -   `1693C.cpp` | Keshi in Search of AmShZ | $O(m \lg m)$ Dijkstra
+    -   `1693C.cpp` | Keshi in Search of AmShZ | $O(m \log m)$ Dijkstra
 -   1706 - [Codeforces Round #809 (Div. 2)](https://codeforces.com/contest/1706)
     -   `1706A.cpp` | Another String Minimization Problem
 -   1716 - [Educational Codeforces Round 133](https://codeforces.com/contest/1716)
@@ -405,15 +449,15 @@
     -   `1760C.cpp` | Advantage
     -   `1760D.cpp` | Challenging Valleys
     -   `1760E.cpp` | Binary Inversions | $O(n)$
-    -   `1760F.cpp` | Quests | $O(n \lg n)$ sort + binary search
-    -   `1760G.cpp` | SlavicG's Favorite Problem | $O(n \lg n)$ DFS + set
+    -   `1760F.cpp` | Quests | $O(n \log n)$ sort + binary search
+    -   `1760G.cpp` | SlavicG's Favorite Problem | $O(n \log n)$ DFS + set
 -   1761 - [Pinely Round 1 (Div. 1 + Div. 2)](https://codeforces.com/contest/1761)
     -   `1761A.cpp` | 
     -   `1761B.cpp` | 
     -   `1761C.cpp` | 
     -   `1761E.cpp` | 
 -   1763 - [Codeforces Round #840 (Div. 2)](https://codeforces.com/contest/1763)
-    -   `1763B.cpp` | Incinerate | $O(n \lg n)$ greedy
+    -   `1763B.cpp` | Incinerate | $O(n \log n)$ greedy
 -   1764 - [Codeforces Global Round 24](https://codeforces.com/contest/1764)
     -   `1764A.cpp` | 
     -   `1764B.cpp` | 
@@ -429,11 +473,11 @@
     -   `1773H.cpp` | 
     -   `1773K.cpp` | 
 -   1775 - [Codeforces Round #843 (Div. 2)](https://codeforces.com/contest/1775)
-    -   `1775C.cpp` | Interesting Sequence | $O(\lg n)$ bitmask + math
+    -   `1775C.cpp` | Interesting Sequence | $O(\log n)$ bitmask + math
 -   1776 - [SWERC 2022-2023 - Online Mirror (ICPC)](https://codeforces.com/contest/1776)
     -   `1776A.cpp` | Walking Boy
-    -   `1776C.cpp` | Library game | $O(n \lg n)$ game
-    -   `1776D-1.cpp` | Teamwork | $O(n \lg(a+b+c))$ binary search + greedy
+    -   `1776C.cpp` | Library game | $O(n \log n)$ game
+    -   `1776D-1.cpp` | Teamwork | $O(n \log(a+b+c))$ binary search + greedy
     -   `1776F.cpp` | Train Splitting
     -   `1776G.cpp` | Another Wine Tasting Event
     -   `1776H.cpp` | Beppa and SwerChat
@@ -443,12 +487,12 @@
 -   1779 - [Hello 2023](https://codeforces.com/contest/1779)
     -   `1779A.cpp` | Hall of Fame
     -   `1779B.cpp` | MKnez's ConstructiveForces Task | $O(n)$ constructive
-    -   `1779C.cpp` | Least Prefix Sum | $O(n \lg n)$ greedy
+    -   `1779C.cpp` | Least Prefix Sum | $O(n \log n)$ greedy
     -   `1779F.cpp` | Xorcerer's Stones | $O(n C^2)$ tree DP
 -   1799 - [Codeforces Round #854](https://codeforces.com/contest/1799)
     -   `1779A.cpp` | Recent Actions
     -   `1779B.cpp` | Equalize by Divide
-    -   `1779C.cpp` | Double Lexicographically Minimum | $O(|s| \lg |s|)$ casework
+    -   `1779C.cpp` | Double Lexicographically Minimum | $O(|s| \log |s|)$ casework
     -   `1779D1.cpp` | Hot Start Up (easy version) | $O(nk)$ DP
     -   `1779E.cpp` | City Union | $O(nm)$ bitonic + BFS
     -   `1779F-1.cpp` | Halve or Subtract | $O(n^2)$ sliding windows
@@ -457,7 +501,7 @@
     -   `1804B.cpp` | Vaccination | $O(n)$ greedy
     -   `1804C.cpp` | Pull Your Luck | $O(n)$ math
     -   `1804D.cpp` | Accommodation | $O(nm)$ greedy
-    -   `1804F.cpp` | Approximate Diameter | $O((n+m+q) \lg n \lg q)$ binary search **[approximation]**
+    -   `1804F.cpp` | Approximate Diameter | $O((n+m+q) \log n \log q)$ binary search **[approximation]**
 -   1810 - [CodeTON Round 4](https://codeforces.com/contest/1810)
     -   `1810A.cpp` | Beautiful Sequence
     -   `1810B.cpp` | Candies
@@ -467,12 +511,14 @@
 -   1830 - [Codeforces Round #875 (Div. 1)](https://codeforces.com/contest/1830)
     -   `1830A.cpp` | Copil Copac Draws Trees | $O(n)$ DFS + DP
     -   `1830B.cpp` | The BOSS Can Count Pairs | $O(n \sqrt{n})$ enumerate + math
-    -   `1830C.cpp` | Hyperregular Bracket Strings | $O(n \lg n)$ hash + math
+    -   `1830C.cpp` | Hyperregular Bracket Strings | $O(n \log n)$ hash + math
 -   1842 - [CodeTON Round 5](https://codeforces.com/contest/1842)
     -   `1842A.cpp` | Tenzing and Tsondu
     -   `1842B.cpp` | Tenzing and Books
     -   `1842C.cpp` | Tenzing and Balls
-    -   `1842D.cpp` | Tenzing and His Animal Friends | $O(m \lg m)$ Dijkstra
+    -   `1842D.cpp` | Tenzing and His Animal Friends | $O(m \log m)$ Dijkstra
+-   1843 - [Codeforces Round #881 (Div. 3)](https://codeforces.com/contest/1843)
+    -   `1843D.cpp` | Apple Tree | $O(n)$ DFS
 -   1860 - [Educational Codeforces Round 153](https://codeforces.com/contest/1860)
     -   `1860A.cpp` | Not a Substring
     -   `1860B.cpp` | Fancy Coins
@@ -488,14 +534,71 @@
 -   1864 - [Harbour.Space Scholarship Contest 2023-2024](https://codeforces.com/contest/1864)
     -   `1864A.cpp` | Increasing and Decreasing
     -   `1864B.cpp` | Swap and Reverse
-    -   `1864C.cpp` | Divisor Chain | $O(\lg C)$
+    -   `1864C.cpp` | Divisor Chain | $O(\log C)$
     -   `1864D.cpp` | Matrix Cascade | $O(n^2)$ prefix sum
-    -   `1864E.cpp` | Guess Game | $O(n \lg C)$ trie
+    -   `1864E.cpp` | Guess Game | $O(n \log C)$ trie
 -   1868 - [Codeforces Round #896 (Div. 1)](https://codeforces.com/contest/1868)
     -   `1868A.cpp` | Fill in the Matrix
     -   `1868B1.cpp` | Candy Party (Easy Version) | $O(n)$
     -   `1868B2.cpp` | Candy Party (Hard Version) | $O(n)$
-    -   `1868C.cpp` | Travel Plan | $O(m \lg n + \lg^3 n)$ DP + DnC
+    -   `1868C.cpp` | Travel Plan | $O(m \log n + \log^3 n)$ DP + divide and conquer
 -   1869 - [Codeforces Round #896 (Div. 2)](https://codeforces.com/contest/1869)
     -   `1869A.cpp` | Make It Zero
     -   `1869B.cpp` | 2D Traveling
+-   1906 - [2023-2024 ICPC, Asia Jakarta Regional Contest](https://codeforces.com/contest/1906)
+    -   `1906A.cpp` | Easy As ABC
+    -   `1906B.cpp` | Button Pressing | $O(N)$ 觀察
+    -   `1906C.cpp` | Cursed Game | **[interactive]**
+    -   `1906E.cpp` | Merge Not Sort | $O(N^2 / w)$ knapsack DP
+    -   `1906F.cpp` | Maximize The Value | $O(Q \log M)$ segment tree
+    -   `1906G.cpp` | Grid Game 2 | $O(N \log C)$ game + math
+    -   `1906H.cpp` | Twin Friends | $O(N |\Sigma|)$ DP + math
+    -   `1906L.cpp` | Palindromic Parentheses | $O(N)$ constructive
+    -   `1906M.cpp` | Triangle Construction | $O(N)$ math + greedy
+-   1909 - [Pinely Round 3](https://codeforces.com/contest/1909)
+    -   `1909A.cpp` | Distinct Buttons | $O(n)$
+    -   `1909B.cpp` | Make Almost Equal With Mod | $O(n \log C)$
+    -   `1909C.cpp` | Heavy Intervals | $O(n \log n)$ greedy
+    -   `1909D.cpp` | Split Plus K | $O(n \log C)$ math
+    -   `1909E.cpp` | Multiple Lamps | $O(\binom{19}{3})$ 梗 + 暴力
+    -   `1909F1.cpp` | Small Permutation Problem (Easy Version) | $O(n^2)$ DP + math
+    -   `1909F2.cpp` | Small Permutation Problem (Hard Version) | $O(n^2)$ DP + math
+-   1915 - [Codeforces Round #918 (Div. 4)](https://codeforces.com/contest/1915)
+    -   `1915A.cpp` | Odd One Out
+    -   `1915B.cpp` | Not Quite Latin Square
+    -   `1915C.cpp` | Can I Square?
+    -   `1915D.cpp` | Unnatural Language Processing | $O(n)$ greedy
+    -   `1915E.cpp` | Romantic Glasses | $O(n \log n)$ set
+    -   `1915F.cpp` | Greetings | $O(n \log n)$ 逆序數對
+    -   `1915G.cpp` | Bicycles | $O((n+m) C)$ DP + Dijkstra
+-   1938 - [2024 ICPC Asia Pacific Championship](https://codeforces.com/contest/1938)
+    -   `1938B.cpp` | Attraction Score | $O(m \log m)$ find $K_4$
+    -   `1938C.cpp` | Bit Counting Sequence | $O(n)$ greedy
+    -   `1938G.cpp` | Personality Test | $O(n^2 k + nm + m |\Sigma|)$ brute force
+    -   `1938H.cpp` | Pho Restaurant | $O(\sum |S_i|)$ greedy
+    -   `1938J.cpp` | There and Back Again | $O(m \log m)$ Dijkstra
+-   1939 - [XVIII Open Olympiad in Informatics - Final Stage, Day 1](https://codeforces.com/contest/1939)
+-   1940 - [XVIII Open Olympiad in Informatics - Final Stage, Day 2](https://codeforces.com/contest/1940)
+    -   `1940A.cpp` | Parallel Universes | $O((m_1 + m_2) \log n)$ MST on complement graph + implementation
+-   1942 - [CodeTON Round 8](https://codeforces.com/contest/1942)
+    -   `1942A.cpp` | Farmer John's Challenge
+    -   `1942B.cpp` | Bessie and MEX
+    -   `1942C.cpp` | Bessie's Birthday Cake | $O(x \log x)$ greedy
+    -   `1942D-1.cpp` | Learning to Paint | $O(nk \log n)$ DP + priority queue
+    -   `1942E.cpp` | Farm Game | $O(l)$ math
+-   1943 - [Codeforces Round #934 (Div. 1)](https://codeforces.com/contest/1943)
+    -   `1943A.cpp` | MEX Game 1 | $O(n)$ game
+    -   `1943B.cpp` | Non-Palindromic Substring | $O(n \log n)$ manacher + binary search
+    -   `1943C.cpp` | Tree Compass | $O(n^2)$ DFS
+    -   `1943D1.cpp` | Counting Is Fun (Easy Version) | $O(nk^2)$ DP
+-   1944 - [Codeforces Round #934 (Div. 2)](https://codeforces.com/contest/1944)
+    -   `1944A.cpp` | Destroying Bridges | $O(1)$
+    -   `1944B.cpp` | Equal XOR | $O(n)$
+-   1952 - [April Fools Day Contest 2024](https://codeforces.com/contest/1952)
+    -   `1952A.py` | Are You a Robot, Again?
+    -   `1952B.cpp` | Is it stated?
+    -   `1952C.cpp` | They Have Fooled
+    -   `1952D.py` | Are You a Procrastinator?
+    -   `1952F.cpp` | Grid
+    -   `1952G.cpp` | Mathematician Takeover
+    -   `1952H.cpp` | Palindrome
