@@ -44,3 +44,19 @@
         -   `gcj22-2A.cpp` | Spiraling Into Control | O(N + lg N) implementation + greedy
     -   Round 3
         -   `gcj22-3A.cpp` | Revenge of GoroSort | O(N) [interactive]
+
+-   Farewell
+    -   Round A
+        -   `gcjfw-AA.cpp` | Colliding Encoding
+        -   `gcjfw-AB.cpp` | Illumination Optimization
+        -   `gcjfw-AC.cpp` | Rainbow Sort
+        -   `gcjfw-AD.cpp` | ASCII Art
+        -   `gcjfw-AE.cpp` | Untie
+    -   Round B
+        -   `gcjfw-BA.cpp` | Collecting Pancakes
+        -   `gcjfw-BC.cpp` | Spacious Sets
+        -   `gcjfw-BD.cpp` | Railroad Maintenance
+    -   Round C
+        -   `gcjfw-CA.cpp` | Game Sort: Part 1
+    -   Round D
+        -   `gcjfw-DE.cpp` | Ring-Preserving Networks

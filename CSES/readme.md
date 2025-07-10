@@ -1,47 +1,76 @@
 # CSES
 
-## Additional Problems
-
-## Advanced Techniques
-
-## Dynamic Programming
-
-## Geometry
-
-## Graph Algorithms
-
--   `1750.cpp` | Planets Queries I | O((N+Q) lg C) doubling
-
 ## Introductory Problems
 
--   `1068.cpp` | Weird Algorithm
--   `1069.cpp` | Repetitions | O(N)
--   `1070.cpp` | Permutations | O(N) construction
--   `1071.cpp` | Number Spiral | O(1) math
--   `1072.cpp` | Two Knights | O(N) math
--   `1083.cpp` | Missing Number | O(N)
--   `1092.cpp` | Two Sets | O(N) construction
--   `1094.cpp` | Increasing Array | O(N)
--   `1617.cpp` | Bit Strings | O(lg N)
--   `1618.cpp` | Trailing Zeros | O(lg N)
--   `1754.cpp` | Coin Piles | O(1)
--   `1755.cpp` | Palindrome Reorder | O(N)
-
-## Mathematics
-
-## Range Queries
+-   `Weird_Algorithm.cpp`
+-   `Missing_Number.cpp` | $O(n)$
+-   `Repetitions.cpp` | $O(n)$
+-   `Increasing_Array.cpp` | $O(n)$
+-   `Permutations.cpp` | $O(n)$ construction
+-   `Number_Spiral.cpp` | $O(1)$ math
+-   `Two_Knights.cpp` | $O(n)$ math
+-   `Two_Sets.cpp` | $O(n)$ construction
+-   `Bit_Strings.cpp` | $O(\log n)$
+-   `Trailing_Zeros.cpp` | $O(\log n)$
+-   `Coin_Piles.cpp` | $O(1)$
+-   `Palindrome_Reorder.cpp` | $O(n)$
+-   `Gray_Code.cpp` | $O(2^n)$
+-   `Tower_of_Hanoi-1.cpp` | $O(2^n)$ 非遞迴版本
+-   `Tower_of_Hanoi-2.cpp` | $O(2^n)$ 遞迴版本
+-   `Creating_Strings-1.cpp` | $O(n!)$ `std::next_permutation`
+-   `Apple_Division.cpp` | $O(2^n)$
+-   `Chessboard_and_Queens.cpp` | $O(8!)$
+-   `Raab_Game_I.cpp` | $O(n)$
+-   `Mex_Grid_Construction.cpp` | $O(n^2)$ 觀察規律
+-   `Knight_Moves_Grid-1.cpp` | $O(n^2)$ 觀察規律
+-   `Grid_Coloring_I.cpp` | $O(nm)$
+-   `Digit_Queries.cpp` | $O(q \cdot 58^2)$ 二分搜
 
 ## Sorting and Searching
 
--   `1076-1.cpp` | Sliding Median | O(N lg K) set
--   `1085.cpp` | Array Division | O(N lg(NC)) 對答案二分搜
--   `1631.cpp` | Reading Books | O(N)
--   `1632.cpp` | Movie Festival II | O(N lg K) greedy
--   `1644.cpp` | Maximum Subarray Sum II | O(N) 單調隊列
--   `2168.cpp` | Nested Ranges Check | O(N lg N) sort
--   `2216.cpp` | Collecting Numbers | O(N lg N) sort
+-   `Collecting_Numbers.cpp` | $O(n \log n)$ sort
+-   `Nested_Ranges_Check.cpp` | $O(n \log n)$ sort
+-   `Reading_Books.cpp` | $O(n)$
+-   `Array_Division.cpp` | $O(n \log(nC))$ 對答案二分搜
+-   `Movie_Festival_II.cpp` | $O(n \log k)$ greedy
+-   `Maximum_Subarray_Sum_II.cpp` | $O(n)$ 單調隊列
+
+## Dynamic Programming
+
+## Graph Algorithms
+
+-   `Planets_Queries_I.cpp` | $O((n+q) \log C)$ doubling
+
+## Range Queries
+
+## Tree Algorithms
+
+## Mathematics
 
 ## String Algorithms
 
-## Tree Algorithms
+## Geometry
+
+## Advanced Techniques
+
+## Sliding Window Problems
+
+-   `Sliding_Median-1.cpp` | $O(n \log k)$ set
+-   `Sliding_Window_Xor.cpp` | $O(n)$
+
+## Interactive Problems
+
+## Bitwise Operations
+
+## Constrction Problems
+
+## Advanced Graph Problems
+
+## Counting Problems
+
+## Additional Problems I
+
+- `Bubble_Sort_Rounds_I.cpp` | $O(n \log n)$ 數前綴大於
+
+## Additional Problems II
 

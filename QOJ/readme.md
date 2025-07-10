@@ -3,17 +3,35 @@
 ## ICPC
 
 - [490](./490)
-    - [Russia Open 2020 High School Team Programming Contest](https://qoj.ac/contest/490)
+    - [Russia Team Open High School Programming Contest 2020](https://qoj.ac/contest/490)
     - `4293.cpp` | A. Bank Transfer
+    - `4294.cpp` | B. Bacteria
     - `4295.cpp` | C. Check Markers
     - `4296.cpp` | D. Multiple Subject Lessons
     - `4297.cpp` | E. Prank at IKEA
     - `4298.cpp` | F. SMS from MCHS
     - `4299.cpp` | G. Cooking
+    - `4300.cpp` | H. Hard Work
     - `4301.cpp` | I. Points and Segments
     - `4302.cpp` | J. Straight
     - `4303.cpp` | K. New Level
     - `4304.cpp` | L. The Firm Knapsack Problem
+- [561](./561)
+    - [2020-2021 ICPC Northwestern Europe Regional Contest (NWERC 2020)](https://qoj.ac/contest/561)
+    - `2367.cpp` | H. Hot Springs
+    - `2369.cpp` | J. Joint Excavation | $O(c + t)$ DFS tree + greedy
+    - `2370.cpp` | K. Keyboardd
+- [739](./739)
+    - [Russia Team Open High School Programming Contest 2021](https://qoj.ac/contest/739)
+    - `2133.cpp` | A. Natives
+    - `2136.cpp` | D. Exam registration
+    - `2137.cpp` | E. Fair Robbery
+    - `2138.cpp` | F. Counting Antibodies
+    - `2139.cpp` | G. The Math of Sailing
+    - `2140.cpp` | H. Lots of Parabolas
+    - `2141.cpp` | I. Wheel of Fortune
+    - `2142.cpp` | J. Yurik and Woodwork Lesson
+    - `2143.cpp` | K. Railroad sorting
 - [750](./750)
     - [Petrozavodsk Winter 2019. Day 3. Japanese Contest](https://qoj.ac/contest/750)
     - [2018-2019 ICPC Asia Pacific - Yokohama Regional](https://qoj.ac/contest/750?v=1)
@@ -33,6 +51,7 @@
     - `4584.cpp` | F. Not One
     - `4585-1.cpp` | G. Greedy Knapsack
     - `4586.cpp` | H. Cell Game
+    - `4589.cpp` | K. White-Black Tree
     - `4591.cpp` | M. Maxdifficent Group
 - [1026](./1026)
     - [The 2022 ICPC Taiwan Online Programming Contest](https://qoj.ac/contest/1026)
@@ -50,6 +69,17 @@
     - `5459.cpp` | E. Goose, goose, DUCK?
     - `5462.cpp` | H. Another Goose Goose Duck Problem
     - `5465.cpp` | K. Maximum GCD
+- [1103](./1103)
+    - [The 2022 ICPC Polish Collegiate Programming Contest (AMPPZ 2022)](https://qoj.ac/contest/1103)
+    - [The 1st Universal Cup. Stage 3: Poland](https://qoj.ac/contest/1103?v=1)
+    - `5499.cpp` | A. Aliases
+    - `5500.cpp` | B. Bars
+    - `5501.cpp` | C. Ctrl+C Ctrl+V
+    - `5502.cpp` | D. Dazzling Mountain
+    - `5505.cpp` | G. Great Chase
+    - `5507.cpp` | I. Investors
+    - `5509.cpp` | K. Kooky Tic-Tac-Toe
+    - `5511.cpp` | M. Minor Evil
 - [1106](./1106)
     - [The 1st Universal Cup. Stage 4: Ukraine](https://qoj.ac/contest/1106)
     - Osijek Competitive Programming Camp 2023. Day 1: Anton Trygub Contest 1
@@ -116,6 +146,9 @@
     - `6567.cpp` | J. Repetitive String Invention
     - `6568.cpp` | K. Space Alignment
     - `6569.cpp` | L. Splitting Pairs
+- [1256](./1256)
+    - [2023 Canadian Computing Olympiad Day 2](https://qoj.ac/contest/1256)
+    - `6628.cpp` | A. Flip it and Stick it
 - [1280](./1280)
     - [The 2023 ICPC China Shandong Provincial Programming Contest](https://qoj.ac/contest/1280)
     - `6695.cpp` | G. Matching
@@ -125,7 +158,7 @@
     - `7114.cpp` | B. Best Interactive Player
     - `7115.cpp` | C. Can You Guess My Sequence?
     - `7116.cpp` | D. Do You Like This Problem?
-    - `see 1280` | G. Matching
+    - `../1280/6695.cpp` | G. Matching
 - [1339](./1339)
     - [The 2nd Universal Cup. Stage 1: Qingdao](https://qoj.ac/contest/1339)
     - `7102.cpp` | A. Live Love
@@ -155,8 +188,59 @@
     - [2023 年 CCPC 网络预选赛](https://qoj.ac/contest/1358?v=1)
     - `7516.cpp` | E. Robot Experiment
     - `7517.cpp` | F. Flying Ship Story
+- [1625](./1625)
+    - [第二届“致理杯”程序设计大赛 (Div. 2)](https://qoj.ac/contest/1625)
+    - `8631.cpp` | A. 疯狂THU
+    - `8634.cpp` | D. 求和
+    - `8636.cpp` | F. 伸展树
+- [1626](./1626)
+    - [第二届“致理杯”程序设计大赛 (Div. 1)](https://qoj.ac/contest/1626)
+    - `../1625/8634.cpp` | A. 求和
+    - `../1625/8636.cpp` | C. 伸展树
+    - `8637.cpp` | D. 搬砖
+- [1801](./1801)
+    - [The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest](https://qoj.ac/contest/1801)
+- [1802](./1802)
+    - [The 2024 ICPC Kunming Invitational Contest](https://qoj.ac/contest/1802)
+    - `../1803/9424.cpp` | C. Stop the Castle 2
+    - `../1803/9427-1.cpp` | F. Collect the Coins
+    - `../1803/9431-1.cpp` | J. The Quest for El Dorado
+    - `../1803/9432.cpp` | K. Permutation
+    - `../1803/9434.cpp` | M. Italian Cuisine
+- [1803](./1803)
+    - [The 3rd Universal Cup. Stage 10: West Lake](https://qoj.ac/contest/1803)
+    - `9434.cpp` | A. Italian Cuisine
+    - `9432.cpp` | C. Permutation
+    - `9427-1.cpp` | D. Collect the Coins
+    - `9424.cpp` | G. Stop the Castle 2
+    - `9431-1.cpp` | M. The Quest for El Dorado
+- [1817](./1817)
+    - [The 3rd Universal Cup. Stage 14: Harbin](https://qoj.ac/contest/1817)
+    - [第十届中国大学生程序设计竞赛 哈尔滨站（CCPC 2024 Harbin Site）](https://qoj.ac/contest/1817?v=1)
+    - `9519.cpp` | A. Build a Computer
+    - `9520.cpp` | B. Concave Hull
+    - `9521.cpp` | C. Giving Directions in Harbin
+    - `9525.cpp` | G. Welcome to Join the Online Meeting!
+    - `9528.cpp` | J. New Energy Vehicle
+    - `9529.cpp` | K. Farm Management
+    - `9531.cpp` | M. Weird Ceiling
+- [1828](./1828)
+    - [The 3rd Universal Cup. Stage 16: Nanjing](https://qoj.ac/contest/1828)
+    - [The 2024 ICPC Asia Nanjing Regional Contest](https://qoj.ac/contest/1828?v=1)
+    - `9565-1.cpp` | B. Birthday Gift
+    - `9565-2.cpp` | B. Birthday Gift
+    - `9568.cpp` | E. Left Shifting 3
+    - `9570.cpp` | G. Binary Tree
+    - `9572.cpp` | I. Bingo
+    - `9573.cpp` | J. Social Media
+    - `9574.cpp` | K. Strips
+- [2058](./2058)
+    - [The 2025 Jiangsu Collegiate Programming Contest](https://qoj.ac/contest/2058)
+    - [The 2025 Guangdong Provincial Collegiate Programming Contest](https://qoj.ac/contest/2058?v=1)
+    - `11376.cpp` | D. Spell Generation
+    - `11379.cpp` | G. Monetary System
 
-## OI
+## Olympiad in Informatics
 
 - [318](./318)
     - [2020 陕西省队选拔赛 Day 1 (SNOI 2020 Day 1)](https://qoj.ac/contest/318)

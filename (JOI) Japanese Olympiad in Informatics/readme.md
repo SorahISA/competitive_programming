@@ -33,6 +33,12 @@
     - `joi24-preC-2.cpp` | 白色光 2 (White Light 2) | $O(N)$ DP
     - `joi24-preD.cpp` | 庭園 2 (Garden 2) | $O(N^2)$ DP
     - `joi24-preE.cpp` | 高速道路の通行料金 (Highway Tolls) | $O(NM)$ 最短路 + DP
+- 2025
+    - `              ` | 
+    - `              ` | 
+    - `              ` | 
+    - `              ` | 
+    - `              ` | 
 
 ## JOI Final
 
@@ -152,6 +158,12 @@
     - `joi24-0C.cpp` | マラソン大会 2 (Marathon Race 2)
     - `            ` | 
     - `            ` | 
+- 2025
+    - `            ` | 
+    - `            ` | 
+    - `            ` | 
+    - `            ` | 
+    - `            ` | 
 
 ## JOI Open Contest
 
@@ -214,6 +226,19 @@
     - `joig23-0D.cpp` | コイン集め 2 (Coin Collecting 2)
     - `joig23-0E.cpp` | 運河 (Canal)
     - `joig23-0F.cpp` | タイピング大会 (Typing Contest) | $O(N + |\Sigma|^3 2^{|\Sigma|} + Q |\Sigma|)$ 位元 DP
+- 2024
+    - `             ` | 
+    - `             ` | 
+    - `             ` | 
+    - `             ` | 
+    - `             ` | 
+    - `             ` | 
+- 2025
+    - `joig25-0A.cpp` | カードゲーム 4 (Card Game 4)
+    - `joig25-0B.cpp` | ポスター 2 (Poster 2)
+    - `joig25-0C.cpp` | 修学旅行 (School Trip)
+    - `joig25-0D.cpp` | 最悪の記者 5 (Worst Reporter 5) | $O(N + M)$ DFS
+    - `joig25-0E.cpp` | 神経衰弱 2 (Pair Matching 2) | $O(N \log N)$ 線段樹優化 DP
 
 ## JOIG Spring Camp
 
